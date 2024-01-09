@@ -9,37 +9,37 @@
 ### 使用前：
 
 设置：（没有添加类型提示增强）
-![使用前的设置](assets/images/before-use-types-settings.png)
+![使用前的设置](assets/images/before-use-types-settings.png?raw=true)
 
 类型提示表现：
-![使用前类型提示表现1](assets/images/before-use-types1.png)
-![使用前类型提示表现2](assets/images/before-use-types2.png)
-![使用前类型提示表现3](assets/images/before-use-types3.png)
-![使用前类型提示表现4](assets/images/before-use-types4.png)
-![使用前类型提示表现5](assets/images/before-use-types5.png)
+![使用前类型提示表现1](assets/images/before-use-types1.png?raw=true)
+![使用前类型提示表现2](assets/images/before-use-types2.png?raw=true)
+![使用前类型提示表现3](assets/images/before-use-types3.png?raw=true)
+![使用前类型提示表现4](assets/images/before-use-types4.png?raw=true)
+![使用前类型提示表现5](assets/images/before-use-types5.png?raw=true)
 
 ### 使用后：
 
 设置：（添加了类型提示增强）
-![使用后的设置](assets/images/after-use-types-settings.png)
+![使用后的设置](assets/images/after-use-types-settings.png?raw=true)
 
 类型提示表现：
-![使用后类型提示表现1](assets/images/after-use-types1.png)
-![使用后类型提示表现2](assets/images/after-use-types2.png)
-![使用后类型提示表现3](assets/images/after-use-types3.png)
-![使用后类型提示表现4](assets/images/after-use-types4.png)
-![使用后类型提示表现5](assets/images/after-use-types5.png)
+![使用后类型提示表现1](assets/images/after-use-types1.png?raw=true)
+![使用后类型提示表现2](assets/images/after-use-types2.png?raw=true)
+![使用后类型提示表现3](assets/images/after-use-types3.png?raw=true)
+![使用后类型提示表现4](assets/images/after-use-types4.png?raw=true)
+![使用后类型提示表现5](assets/images/after-use-types5.png?raw=true)
 
 ## 使用方式
 
 1. 下载本仓库，复制 typesEnhancement 文件夹到你认为合适的位置（例如在示例图中，放在了 E:\pz-mod\Umbrella\typesEnhancement）
 2. 在 VSCode 中启用 sumneko.lua 扩展（是图中这个扩展，别弄错了）
-![sumneko.lua](assets/images/vscode-lua-ext.png)
+![sumneko.lua](assets/images/vscode-lua-ext.png?raw=true)
 3. 打开 VSCode，在扩展设置中填入之前放好的 typesEnhancement 文件夹路径
-![vscode-open-settings1](assets/images/vscode-open-settings1.png)
-![vscode-open-settings2](assets/images/vscode-open-settings2.png)
+![vscode-open-settings1](assets/images/vscode-open-settings1.png?raw=true)
+![vscode-open-settings2](assets/images/vscode-open-settings2.png?raw=true)
 在这里填入你之前放好的 typesEnhancement 文件夹路径
-![vscode-open-settings3](assets/images/vscode-open-settings3.png)
+![vscode-open-settings3](assets/images/vscode-open-settings3.png?raw=true)
 4. 打开你的 lua 文件，查看效果~（需要等类型提示加载完成）
 
 另外，对于新声明的类型，推荐如下写法：
@@ -63,7 +63,7 @@ local ExampleClass = ISUIElement:derive('ExampleClass')
 ```
 
 Q2: 类 Type 字段的值显示不正常，如图：
-![qa-wrong-class-type](assets/images/qa-wrong-class-type.png)
+![qa-wrong-class-type](assets/images/qa-wrong-class-type.png?raw=true)
 
 A2: 添加 `@field Type` 注释。示例：
 ```lua
@@ -84,7 +84,7 @@ A3: 这些是来自 [Umbrella](https://github.com/asledgehammer/Umbrella) 仓库
 
 2. 复制 types_gen.js 到僵尸毁灭工程游戏目录下的 media/lua 文件夹下，如图
 
-![Alt text](assets/images/types-gen-pos.png)
+![Alt text](assets/images/types-gen-pos.png?raw=true)
 
 3. 在命令行中跳转到该目录下，执行 node types_gen.js，生成的 typesEnhancement 文件夹就是相应的 类型提示增强
 
