@@ -7,4 +7,4 @@
 ObjectViewer = {}
 
 ---@return self
-function ObjectViewer:new() end
+function ObjectViewer:new (x, y, width, height, obj) end

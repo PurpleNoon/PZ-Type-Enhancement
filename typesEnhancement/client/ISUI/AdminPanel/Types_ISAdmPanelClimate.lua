@@ -7,4 +7,4 @@
 ISAdmPanelClimate = {}
 
 ---@return self
-function ISAdmPanelClimate:new() end
+function ISAdmPanelClimate:new(x, y, width, height, player) end

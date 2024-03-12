@@ -7,4 +7,4 @@
 ISRichTextBox = {}
 
 ---@return self
-function ISRichTextBox:new() end
+function ISRichTextBox:new(x, y, width, height, text, defaultEntryText, target, onclick, player, param1, param2, param3, param4) end

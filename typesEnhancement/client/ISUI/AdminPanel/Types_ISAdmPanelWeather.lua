@@ -7,4 +7,4 @@
 ISAdmPanelWeather = {}
 
 ---@return self
-function ISAdmPanelWeather:new() end
+function ISAdmPanelWeather:new(x, y, width, height, player) end

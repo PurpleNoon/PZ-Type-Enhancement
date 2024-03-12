@@ -7,4 +7,4 @@
 ISSmashVehicleWindow = {}
 
 ---@return self
-function ISSmashVehicleWindow:new() end
+function ISSmashVehicleWindow:new(character, part, open) end

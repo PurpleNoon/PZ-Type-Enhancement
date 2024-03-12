@@ -7,4 +7,4 @@
 ISWakeOtherPlayer = {}
 
 ---@return self
-function ISWakeOtherPlayer:new() end
+function ISWakeOtherPlayer:new(character, other) end

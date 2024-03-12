@@ -7,4 +7,4 @@
 ISHotbar = {}
 
 ---@return self
-function ISHotbar:new() end
+function ISHotbar:new(character) end

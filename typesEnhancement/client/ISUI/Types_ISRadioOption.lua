@@ -7,4 +7,4 @@
 ISRadioOption = {}
 
 ---@return self
-function ISRadioOption:new() end
+function ISRadioOption:new (x, y, width, height, name, changeOptionTarget, changeOptionMethod) end

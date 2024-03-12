@@ -7,4 +7,4 @@
 ISPlaceCarBatteryChargerAction = {}
 
 ---@return self
-function ISPlaceCarBatteryChargerAction:new() end
+function ISPlaceCarBatteryChargerAction:new(character, charger, time) end

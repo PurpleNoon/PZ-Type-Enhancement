@@ -7,4 +7,4 @@
 ISDigitalCode = {}
 
 ---@return self
-function ISDigitalCode:new() end
+function ISDigitalCode:new(x, y, width, height, target, onclick, player, padlock, thumpable, new) end

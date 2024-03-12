@@ -7,4 +7,4 @@
 ISMicrowaveUI = {}
 
 ---@return self
-function ISMicrowaveUI:new() end
+function ISMicrowaveUI:new(x, y, width, height, oven, character) end

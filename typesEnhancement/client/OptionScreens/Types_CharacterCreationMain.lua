@@ -6,24 +6,15 @@
 ---@field Type 'CharacterCreationMain'
 CharacterCreationMain = {}
 
----@return self
-function CharacterCreationMain:new() end
-
 
 ---@class CharacterCreationMainCharacterPanel : ISPanelJoypad
 ---@field Type 'CharacterCreationMainCharacterPanel'
 CharacterCreationMainCharacterPanel = {}
 
----@return self
-function CharacterCreationMainCharacterPanel:new() end
-
 
 ---@class CharacterCreationMainPresetPanel : ISPanelJoypad
 ---@field Type 'CharacterCreationMainPresetPanel'
 CharacterCreationMainPresetPanel = {}
-
----@return self
-function CharacterCreationMainPresetPanel:new() end
 
 
 ---@class ClothingPanel : ISPanelJoypad
@@ -31,4 +22,10 @@ function CharacterCreationMainPresetPanel:new() end
 ClothingPanel = {}
 
 ---@return self
-function ClothingPanel:new() end
+function CharacterCreationMainCharacterPanel:new(x, y, width, height) end
+
+---@return self
+function ClothingPanel:new(x, y, width, height) end
+
+---@return self
+function CharacterCreationMain:new (x, y, width, height) end

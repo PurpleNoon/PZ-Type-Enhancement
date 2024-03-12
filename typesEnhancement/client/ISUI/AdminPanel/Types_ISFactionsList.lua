@@ -7,4 +7,4 @@
 ISFactionsList = {}
 
 ---@return self
-function ISFactionsList:new() end
+function ISFactionsList:new(x, y, width, height, player) end

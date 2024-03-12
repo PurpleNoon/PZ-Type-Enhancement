@@ -7,4 +7,4 @@
 DebugChunkState_ObjectPickerPanel = {}
 
 ---@return self
-function DebugChunkState_ObjectPickerPanel:new() end
+function ObjectPickerPanel:new(x, y, width, height, debugChunkState) end

@@ -7,4 +7,4 @@
 ThunderDebug = {}
 
 ---@return self
-function ThunderDebug:new() end
+function ThunderDebug:new (x, y, width, height, player) end

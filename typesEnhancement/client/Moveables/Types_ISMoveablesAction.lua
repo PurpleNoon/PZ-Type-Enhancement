@@ -7,4 +7,4 @@
 ISMoveablesAction = {}
 
 ---@return self
-function ISMoveablesAction:new() end
+function ISMoveablesAction:new(character, _sq, _moveProps, _mode, _origSpriteName, _moveCursor ) end

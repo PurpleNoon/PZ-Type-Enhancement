@@ -7,4 +7,4 @@
 ISCollapsableWindowJoypad = {}
 
 ---@return self
-function ISCollapsableWindowJoypad:new() end
+function ISCollapsableWindowJoypad:new (x, y, width, height) end

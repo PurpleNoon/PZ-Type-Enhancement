@@ -6,16 +6,10 @@
 ---@field Type 'ISLiteratureUI'
 ISLiteratureUI = {}
 
----@return self
-function ISLiteratureUI:new() end
-
 
 ---@class ISLiteratureList : ISScrollingListBox
 ---@field Type 'ISLiteratureList'
 ISLiteratureList = {}
-
----@return self
-function ISLiteratureList:new() end
 
 
 ---@class ISLiteratureMediaList : ISScrollingListBox
@@ -23,4 +17,10 @@ function ISLiteratureList:new() end
 ISLiteratureMediaList = {}
 
 ---@return self
-function ISLiteratureMediaList:new() end
+function ISLiteratureList:new(x, y, width, height, character) end
+
+---@return self
+function ISLiteratureMediaList:new(x, y, width, height, character) end
+
+---@return self
+function ISLiteratureUI:new(x, y, width, height, character, owner) end

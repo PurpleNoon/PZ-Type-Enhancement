@@ -7,4 +7,4 @@
 ISBuildCursorMouse = {}
 
 ---@return self
-function ISBuildCursorMouse:new() end
+function ISBuildCursorMouse:new(character, onSquareSelected, isValid) end

@@ -7,4 +7,4 @@
 ISAlarmClockDialog = {}
 
 ---@return self
-function ISAlarmClockDialog:new() end
+function ISAlarmClockDialog:new(x, y, width, height, player, alarm) end

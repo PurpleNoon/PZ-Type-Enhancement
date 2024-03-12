@@ -7,4 +7,4 @@
 RainCollectorBarrel = {}
 
 ---@return self
-function RainCollectorBarrel:new() end
+function RainCollectorBarrel:new(player, sprite, waterMax) end

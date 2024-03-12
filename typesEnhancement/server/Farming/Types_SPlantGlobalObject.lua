@@ -7,4 +7,4 @@
 SPlantGlobalObject = {}
 
 ---@return self
-function SPlantGlobalObject:new() end
+function SPlantGlobalObject:new(luaSystem, globalObject) end

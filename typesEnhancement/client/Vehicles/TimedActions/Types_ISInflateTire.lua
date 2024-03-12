@@ -7,4 +7,4 @@
 ISInflateTire = {}
 
 ---@return self
-function ISInflateTire:new() end
+function ISInflateTire:new(character, part, item, psi, time) end

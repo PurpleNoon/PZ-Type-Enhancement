@@ -7,4 +7,4 @@
 ISPlace3DItemCursor = {}
 
 ---@return self
-function ISPlace3DItemCursor:new() end
+function ISPlace3DItemCursor:new(character, items) end

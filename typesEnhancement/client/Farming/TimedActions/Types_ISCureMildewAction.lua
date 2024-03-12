@@ -7,4 +7,4 @@
 ISCureMildewAction = {}
 
 ---@return self
-function ISCureMildewAction:new() end
+function ISCureMildewAction:new(character, item, uses, plant, time) end

@@ -7,4 +7,4 @@
 ISRemoveDrum = {}
 
 ---@return self
-function ISRemoveDrum:new() end
+function ISRemoveDrum:new(character, metalDrum) end

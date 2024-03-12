@@ -7,4 +7,4 @@
 ISWashClothing = {}
 
 ---@return self
-function ISWashClothing:new() end
+function ISWashClothing:new(character, sink, soapList, item, bloodAmount, dirtAmount, noSoap) end

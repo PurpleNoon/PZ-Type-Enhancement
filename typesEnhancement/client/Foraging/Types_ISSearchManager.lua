@@ -7,4 +7,4 @@
 ISSearchManager = {}
 
 ---@return self
-function ISSearchManager:new() end
+function ISSearchManager:new(_character) end

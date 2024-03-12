@@ -7,4 +7,4 @@
 ISChopTreeAction = {}
 
 ---@return self
-function ISChopTreeAction:new() end
+function ISChopTreeAction:new(character, tree) end

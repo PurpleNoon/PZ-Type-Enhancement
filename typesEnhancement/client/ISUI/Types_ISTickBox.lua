@@ -7,4 +7,4 @@
 ISTickBox = {}
 
 ---@return self
-function ISTickBox:new() end
+function ISTickBox:new (x, y, width, height, name, changeOptionTarget, changeOptionMethod, changeOptionArg1, changeOptionArg2) end

@@ -7,4 +7,4 @@
 LoginScreen = {}
 
 ---@return self
-function LoginScreen:new() end
+function LoginScreen:new (x, y, width, height) end

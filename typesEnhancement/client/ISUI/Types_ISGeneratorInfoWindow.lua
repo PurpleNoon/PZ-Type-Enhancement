@@ -7,4 +7,4 @@
 ISGeneratorInfoWindow = {}
 
 ---@return self
-function ISGeneratorInfoWindow:new() end
+function ISGeneratorInfoWindow:new(x, y, character, object) end

@@ -7,4 +7,4 @@
 ISGameStatisticPanel = {}
 
 ---@return self
-function ISGameStatisticPanel:new() end
+function ISGameStatisticPanel:new(x, y, width, height, title) end

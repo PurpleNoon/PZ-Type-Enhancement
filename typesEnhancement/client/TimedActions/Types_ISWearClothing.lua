@@ -7,4 +7,4 @@
 ISWearClothing = {}
 
 ---@return self
-function ISWearClothing:new() end
+function ISWearClothing:new(character, item, time) end

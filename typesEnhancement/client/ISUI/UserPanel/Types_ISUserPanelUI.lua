@@ -7,4 +7,4 @@
 ISUserPanelUI = {}
 
 ---@return self
-function ISUserPanelUI:new() end
+function ISUserPanelUI:new(x, y, width, height, player) end

@@ -7,4 +7,4 @@
 MoveToState = {}
 
 ---@return self
-function MoveToState:new() end
+function MoveToState:new (mover, x, y, z) end

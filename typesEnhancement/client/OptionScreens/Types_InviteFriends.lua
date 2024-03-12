@@ -7,4 +7,4 @@
 InviteFriends = {}
 
 ---@return self
-function InviteFriends:new() end
+function InviteFriends:new(x, y, width, height) end

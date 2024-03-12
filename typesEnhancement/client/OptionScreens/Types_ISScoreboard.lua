@@ -7,4 +7,4 @@
 ISScoreboard = {}
 
 ---@return self
-function ISScoreboard:new() end
+function ISScoreboard:new(x, y, width, height) end

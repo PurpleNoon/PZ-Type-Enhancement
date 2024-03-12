@@ -7,4 +7,4 @@
 ISAnvil = {}
 
 ---@return self
-function ISAnvil:new() end
+function ISAnvil:new(name, character, sprite, northSprite) end

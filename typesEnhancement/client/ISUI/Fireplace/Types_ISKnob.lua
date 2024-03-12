@@ -7,4 +7,4 @@
 ISKnob = {}
 
 ---@return self
-function ISKnob:new() end
+function ISKnob:new(x, y, tex, valuesBg, title, player) end

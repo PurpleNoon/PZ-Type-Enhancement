@@ -7,4 +7,4 @@
 ISRemoveBrokenGlass = {}
 
 ---@return self
-function ISRemoveBrokenGlass:new() end
+function ISRemoveBrokenGlass:new(character, window, time) end

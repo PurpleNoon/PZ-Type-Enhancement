@@ -7,4 +7,4 @@
 ISLightbarUITimedAction = {}
 
 ---@return self
-function ISLightbarUITimedAction:new() end
+function ISLightbarUITimedAction:new(character) end

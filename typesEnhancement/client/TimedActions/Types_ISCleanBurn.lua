@@ -7,4 +7,4 @@
 ISCleanBurn = {}
 
 ---@return self
-function ISCleanBurn:new() end
+function ISCleanBurn:new(doctor, otherPlayer, bandage, bodyPart) end

@@ -7,4 +7,4 @@
 ISCompost = {}
 
 ---@return self
-function ISCompost:new() end
+function ISCompost:new(name, sprite) end

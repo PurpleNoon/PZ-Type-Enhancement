@@ -7,4 +7,4 @@
 ISItemsListViewer = {}
 
 ---@return self
-function ISItemsListViewer:new() end
+function ISItemsListViewer:new(x, y, width, height) end

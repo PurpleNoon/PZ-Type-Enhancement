@@ -7,4 +7,4 @@
 ISButton = {}
 
 ---@return self
-function ISButton:new() end
+function ISButton:new (x, y, width, height, title, clicktarget, onclick, onmousedown, allowMouseUpProcessing) end

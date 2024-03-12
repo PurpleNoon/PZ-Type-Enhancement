@@ -7,4 +7,4 @@
 ISClimbThroughWindow = {}
 
 ---@return self
-function ISClimbThroughWindow:new() end
+function ISClimbThroughWindow:new(character, item, time) end

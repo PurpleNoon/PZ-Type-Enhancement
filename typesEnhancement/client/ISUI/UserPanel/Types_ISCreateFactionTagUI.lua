@@ -7,4 +7,4 @@
 ISCreateFactionTagUI = {}
 
 ---@return self
-function ISCreateFactionTagUI:new() end
+function ISCreateFactionTagUI:new(x, y, width, height, player, faction) end

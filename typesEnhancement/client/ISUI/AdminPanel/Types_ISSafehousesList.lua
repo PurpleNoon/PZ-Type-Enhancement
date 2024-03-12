@@ -7,4 +7,4 @@
 ISSafehousesList = {}
 
 ---@return self
-function ISSafehousesList:new() end
+function ISSafehousesList:new(x, y, width, height, player) end

@@ -7,4 +7,4 @@
 ISDyeHair = {}
 
 ---@return self
-function ISDyeHair:new() end
+function ISDyeHair:new(character, hairDye, beard, time) end

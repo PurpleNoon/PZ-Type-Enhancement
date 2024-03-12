@@ -7,4 +7,4 @@
 ISFireplaceExtinguish = {}
 
 ---@return self
-function ISFireplaceExtinguish:new() end
+function ISFireplaceExtinguish:new (character, fireplace, time) end

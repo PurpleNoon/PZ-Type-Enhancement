@@ -7,4 +7,4 @@
 ISFixAction = {}
 
 ---@return self
-function ISFixAction:new() end
+function ISFixAction:new(character, item, time, fixing, fixer, vehiclePart) end

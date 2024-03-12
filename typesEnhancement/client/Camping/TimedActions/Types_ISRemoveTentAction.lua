@@ -7,4 +7,4 @@
 ISRemoveTentAction = {}
 
 ---@return self
-function ISRemoveTentAction:new() end
+function ISRemoveTentAction:new(character, tent, time) end

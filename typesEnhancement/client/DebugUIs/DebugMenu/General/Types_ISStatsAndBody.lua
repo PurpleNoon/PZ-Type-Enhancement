@@ -7,4 +7,4 @@
 ISStatsAndBody = {}
 
 ---@return self
-function ISStatsAndBody:new() end
+function ISStatsAndBody:new(x, y, width, height, doStencil) end

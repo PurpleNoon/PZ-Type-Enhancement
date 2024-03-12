@@ -7,4 +7,4 @@
 ISUnequipAction = {}
 
 ---@return self
-function ISUnequipAction:new() end
+function ISUnequipAction:new(character, item, time) end

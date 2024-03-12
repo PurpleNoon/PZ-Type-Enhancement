@@ -7,4 +7,4 @@
 ISRechargeCarBattery = {}
 
 ---@return self
-function ISRechargeCarBattery:new() end
+function ISRechargeCarBattery:new(battery, carCharger, chr) end

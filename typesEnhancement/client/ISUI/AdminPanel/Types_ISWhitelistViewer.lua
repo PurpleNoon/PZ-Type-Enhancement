@@ -7,4 +7,4 @@
 ISWhitelistViewer = {}
 
 ---@return self
-function ISWhitelistViewer:new() end
+function ISWhitelistViewer:new (x, y, width, height) end

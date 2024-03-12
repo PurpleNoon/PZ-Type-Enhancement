@@ -7,4 +7,4 @@
 WorldMapEditor = {}
 
 ---@return self
-function WorldMapEditor:new() end
+function WorldMapEditor:new(x, y, width, height, javaObject) end

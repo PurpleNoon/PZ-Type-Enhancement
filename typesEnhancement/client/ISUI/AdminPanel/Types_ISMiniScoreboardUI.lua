@@ -7,4 +7,4 @@
 ISMiniScoreboardUI = {}
 
 ---@return self
-function ISMiniScoreboardUI:new() end
+function ISMiniScoreboardUI:new(x, y, width, height, admin) end

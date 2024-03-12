@@ -7,4 +7,4 @@
 ISOpenCloseDoor = {}
 
 ---@return self
-function ISOpenCloseDoor:new() end
+function ISOpenCloseDoor:new(character, item, time) end

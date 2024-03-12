@@ -7,4 +7,4 @@
 ISReloadManager = {}
 
 ---@return self
-function ISReloadManager:new() end
+function ISReloadManager:new(player) end

@@ -7,4 +7,4 @@
 ISPlayerStatsChooseAccessLevelUI = {}
 
 ---@return self
-function ISPlayerStatsChooseAccessLevelUI:new() end
+function ISPlayerStatsChooseAccessLevelUI:new(x, y, width, height, target, onclick, player, admin) end

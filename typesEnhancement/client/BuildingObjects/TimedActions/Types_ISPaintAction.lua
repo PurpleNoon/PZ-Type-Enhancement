@@ -7,4 +7,4 @@
 ISPaintAction = {}
 
 ---@return self
-function ISPaintAction:new() end
+function ISPaintAction:new(character, thumpable, paintPot, painting, time) end

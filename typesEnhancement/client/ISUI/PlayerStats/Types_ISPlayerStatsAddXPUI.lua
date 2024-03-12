@@ -7,4 +7,4 @@
 ISPlayerStatsAddXPUI = {}
 
 ---@return self
-function ISPlayerStatsAddXPUI:new() end
+function ISPlayerStatsAddXPUI:new(x, y, width, height, target, onclick) end

@@ -7,4 +7,4 @@
 ISMediaInfo = {}
 
 ---@return self
-function ISMediaInfo:new() end
+function ISMediaInfo:new(x, y, width, height, playerNum, text) end

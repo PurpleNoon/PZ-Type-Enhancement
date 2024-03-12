@@ -7,4 +7,4 @@
 ISBaseState = {}
 
 ---@return self
-function ISBaseState:new() end
+function ISBaseState:new () end

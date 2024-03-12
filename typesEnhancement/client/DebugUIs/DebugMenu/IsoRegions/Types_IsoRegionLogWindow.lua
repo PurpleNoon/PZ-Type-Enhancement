@@ -7,4 +7,4 @@
 IsoRegionLogWindow = {}
 
 ---@return self
-function IsoRegionLogWindow:new() end
+function IsoRegionLogWindow:new(x, y, width, height, title) end

@@ -7,4 +7,4 @@
 SadisticMusicDirector = {}
 
 ---@return self
-function SadisticMusicDirector:new() end
+function SadisticMusicDirector:new () end

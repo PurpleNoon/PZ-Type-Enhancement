@@ -7,4 +7,4 @@
 ISPutOutCampfireAction = {}
 
 ---@return self
-function ISPutOutCampfireAction:new() end
+function ISPutOutCampfireAction:new (character, campfire, time) end

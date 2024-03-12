@@ -7,4 +7,4 @@
 ISInstallVehiclePart = {}
 
 ---@return self
-function ISInstallVehiclePart:new() end
+function ISInstallVehiclePart:new(character, part, item, time) end

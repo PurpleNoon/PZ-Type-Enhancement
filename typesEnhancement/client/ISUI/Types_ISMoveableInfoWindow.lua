@@ -7,4 +7,4 @@
 ISMoveableInfoWindow = {}
 
 ---@return self
-function ISMoveableInfoWindow:new() end
+function ISMoveableInfoWindow:new(x, y, character, drag) end

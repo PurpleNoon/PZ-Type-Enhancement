@@ -7,4 +7,4 @@
 ISImage = {}
 
 ---@return self
-function ISImage:new() end
+function ISImage:new (x, y, width, height, texture) end

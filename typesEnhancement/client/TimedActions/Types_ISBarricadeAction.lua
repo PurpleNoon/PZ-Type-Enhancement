@@ -7,4 +7,4 @@
 ISBarricadeAction = {}
 
 ---@return self
-function ISBarricadeAction:new() end
+function ISBarricadeAction:new(character, item, isMetal, isMetalBar, time) end

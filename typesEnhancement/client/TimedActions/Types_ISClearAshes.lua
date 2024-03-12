@@ -7,4 +7,4 @@
 ISClearAshes = {}
 
 ---@return self
-function ISClearAshes:new() end
+function ISClearAshes:new(character, ashes, time) end

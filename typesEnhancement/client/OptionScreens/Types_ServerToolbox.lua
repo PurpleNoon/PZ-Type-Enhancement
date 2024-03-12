@@ -7,4 +7,4 @@
 ServerToolbox = {}
 
 ---@return self
-function ServerToolbox:new() end
+function ServerToolbox:new(x, y, width, height) end

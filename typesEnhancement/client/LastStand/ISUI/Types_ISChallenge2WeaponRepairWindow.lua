@@ -7,4 +7,4 @@
 ISChallenge2WeaponRepairWindow = {}
 
 ---@return self
-function ISChallenge2WeaponRepairWindow:new() end
+function ISChallenge2WeaponRepairWindow:new(x, y, width, height, player) end

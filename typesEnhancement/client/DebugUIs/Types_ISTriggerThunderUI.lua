@@ -7,4 +7,4 @@
 ISTriggerThunderUI = {}
 
 ---@return self
-function ISTriggerThunderUI:new() end
+function ISTriggerThunderUI:new(x, y, width, height, character) end

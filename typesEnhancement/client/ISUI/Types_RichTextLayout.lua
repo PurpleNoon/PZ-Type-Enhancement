@@ -7,4 +7,4 @@
 ISRichTextLayout = {}
 
 ---@return self
-function ISRichTextLayout:new() end
+function ISRichTextLayout:new(width) end

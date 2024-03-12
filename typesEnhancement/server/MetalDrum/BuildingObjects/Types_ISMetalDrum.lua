@@ -7,4 +7,4 @@
 ISMetalDrum = {}
 
 ---@return self
-function ISMetalDrum:new() end
+function ISMetalDrum:new(player, sprite) end

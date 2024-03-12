@@ -7,4 +7,4 @@
 ISWaterPlantAction = {}
 
 ---@return self
-function ISWaterPlantAction:new() end
+function ISWaterPlantAction:new(character, item, uses, sq, time) end

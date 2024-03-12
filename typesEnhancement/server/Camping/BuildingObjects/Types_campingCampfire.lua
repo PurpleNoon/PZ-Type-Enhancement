@@ -7,4 +7,4 @@
 campingCampfire = {}
 
 ---@return self
-function campingCampfire:new() end
+function campingCampfire:new(character) end

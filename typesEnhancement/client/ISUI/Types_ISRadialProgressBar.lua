@@ -7,4 +7,4 @@
 ISRadialProgressBar = {}
 
 ---@return self
-function ISRadialProgressBar:new() end
+function ISRadialProgressBar:new(x, y, width, height, texturePath) end

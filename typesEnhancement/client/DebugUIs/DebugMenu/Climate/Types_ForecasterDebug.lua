@@ -7,4 +7,4 @@
 ForecasterDebug = {}
 
 ---@return self
-function ForecasterDebug:new() end
+function ForecasterDebug:new(x, y, width, height, title) end

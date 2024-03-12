@@ -7,4 +7,4 @@
 ISWoodenDoorFrame = {}
 
 ---@return self
-function ISWoodenDoorFrame:new() end
+function ISWoodenDoorFrame:new(sprite, northSprite, corner) end

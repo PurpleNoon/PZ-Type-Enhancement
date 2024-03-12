@@ -7,4 +7,4 @@
 ISEatFoodAction = {}
 
 ---@return self
-function ISEatFoodAction:new() end
+function ISEatFoodAction:new (character, item, percentage) end

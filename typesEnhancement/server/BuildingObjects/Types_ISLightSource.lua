@@ -7,4 +7,4 @@
 ISLightSource = {}
 
 ---@return self
-function ISLightSource:new() end
+function ISLightSource:new(sprite, northSprite, player) end

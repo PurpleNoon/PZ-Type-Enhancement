@@ -7,4 +7,4 @@
 ISSwitchVehicleSeat = {}
 
 ---@return self
-function ISSwitchVehicleSeat:new() end
+function ISSwitchVehicleSeat:new(character, seatTo) end

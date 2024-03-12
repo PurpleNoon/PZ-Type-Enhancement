@@ -7,4 +7,4 @@
 ISLightFromLiterature = {}
 
 ---@return self
-function ISLightFromLiterature:new() end
+function ISLightFromLiterature:new(character, item, lighter, campfire, fuelAmt, time) end

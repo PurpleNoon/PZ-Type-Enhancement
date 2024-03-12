@@ -7,4 +7,4 @@
 ISWashVehicle = {}
 
 ---@return self
-function ISWashVehicle:new() end
+function ISWashVehicle:new(character, vehicle, id, area) end

@@ -7,4 +7,4 @@
 ISPostDeathUI = {}
 
 ---@return self
-function ISPostDeathUI:new() end
+function ISPostDeathUI:new(playerIndex) end

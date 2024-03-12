@@ -7,4 +7,4 @@
 ISRemoveWeaponUpgrade = {}
 
 ---@return self
-function ISRemoveWeaponUpgrade:new() end
+function ISRemoveWeaponUpgrade:new(character, weapon, part, time) end

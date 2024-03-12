@@ -7,4 +7,4 @@
 ISTakeEngineParts = {}
 
 ---@return self
-function ISTakeEngineParts:new() end
+function ISTakeEngineParts:new(character, part, item, time) end

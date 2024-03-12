@@ -7,4 +7,4 @@
 WorldMapEditorMode_Annotations = {}
 
 ---@return self
-function WorldMapEditorMode_Annotations:new() end
+function WorldMapEditorMode_Annotations:new(editor) end

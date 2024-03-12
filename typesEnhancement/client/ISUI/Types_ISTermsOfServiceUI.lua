@@ -7,4 +7,4 @@
 ISTermsOfServiceUI = {}
 
 ---@return self
-function ISTermsOfServiceUI:new() end
+function ISTermsOfServiceUI:new(x, y, width, height) end

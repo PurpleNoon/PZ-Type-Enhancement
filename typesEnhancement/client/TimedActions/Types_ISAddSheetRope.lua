@@ -7,4 +7,4 @@
 ISAddSheetRope = {}
 
 ---@return self
-function ISAddSheetRope:new() end
+function ISAddSheetRope:new(character, window) end

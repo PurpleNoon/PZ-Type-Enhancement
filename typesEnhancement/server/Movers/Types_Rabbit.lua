@@ -7,4 +7,4 @@
 Rabbit = {}
 
 ---@return self
-function Rabbit:new() end
+function Rabbit:new () end

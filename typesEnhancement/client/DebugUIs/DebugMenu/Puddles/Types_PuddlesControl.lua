@@ -7,4 +7,4 @@
 PuddlesControl = {}
 
 ---@return self
-function PuddlesControl:new() end
+function PuddlesControl:new(x, y, width, height) end

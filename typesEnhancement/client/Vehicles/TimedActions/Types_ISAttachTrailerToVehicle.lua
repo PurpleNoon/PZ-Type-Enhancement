@@ -7,4 +7,4 @@
 ISAttachTrailerToVehicle = {}
 
 ---@return self
-function ISAttachTrailerToVehicle:new() end
+function ISAttachTrailerToVehicle:new(character, vehicleA, vehicleB, attachmentA, attachmentB) end

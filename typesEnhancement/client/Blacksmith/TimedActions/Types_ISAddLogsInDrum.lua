@@ -7,4 +7,4 @@
 ISAddLogsInDrum = {}
 
 ---@return self
-function ISAddLogsInDrum:new() end
+function ISAddLogsInDrum:new(character, metalDrum, add) end

@@ -7,4 +7,4 @@
 RWM = {}
 
 ---@return self
-function RWM:new() end
+function RWM:new (x, y, width, height) end

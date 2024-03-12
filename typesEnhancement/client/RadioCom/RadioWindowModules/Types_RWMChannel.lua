@@ -7,4 +7,4 @@
 RWMChannel = {}
 
 ---@return self
-function RWMChannel:new() end
+function RWMChannel:new (x, y, width, height ) end

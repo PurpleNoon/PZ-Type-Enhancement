@@ -7,4 +7,4 @@
 ISFireplaceInfoWindow = {}
 
 ---@return self
-function ISFireplaceInfoWindow:new() end
+function ISFireplaceInfoWindow:new(x, y, character, fireplace) end

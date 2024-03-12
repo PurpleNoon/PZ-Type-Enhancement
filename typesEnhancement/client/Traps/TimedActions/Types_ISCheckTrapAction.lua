@@ -7,4 +7,4 @@
 ISCheckTrapAction = {}
 
 ---@return self
-function ISCheckTrapAction:new() end
+function ISCheckTrapAction:new(character, trap, time) end

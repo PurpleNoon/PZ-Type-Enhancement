@@ -7,4 +7,4 @@
 DebuggerContextMenu = {}
 
 ---@return self
-function DebuggerContextMenu:new() end
+function DebuggerContextMenu:new(x, y, width, height) end

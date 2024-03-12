@@ -7,4 +7,4 @@
 ISPaintSignAction = {}
 
 ---@return self
-function ISPaintSignAction:new() end
+function ISPaintSignAction:new(character, wall, paintPot, sign,r,g,b) end

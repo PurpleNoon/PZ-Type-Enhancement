@@ -7,4 +7,4 @@
 ISGarmentUI = {}
 
 ---@return self
-function ISGarmentUI:new() end
+function ISGarmentUI:new(x, y, character, clothing) end

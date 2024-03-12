@@ -7,4 +7,4 @@
 ISSafetyUI = {}
 
 ---@return self
-function ISSafetyUI:new() end
+function ISSafetyUI:new(x, y, playerNum) end

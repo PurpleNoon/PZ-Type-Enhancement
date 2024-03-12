@@ -7,4 +7,4 @@
 ISJoypadDisconnectedUI = {}
 
 ---@return self
-function ISJoypadDisconnectedUI:new() end
+function ISJoypadDisconnectedUI:new(playerNum) end

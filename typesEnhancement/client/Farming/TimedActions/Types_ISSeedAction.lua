@@ -7,4 +7,4 @@
 ISSeedAction = {}
 
 ---@return self
-function ISSeedAction:new() end
+function ISSeedAction:new(character, seeds, nbOfSeed, typeOfSeed, plant, time) end

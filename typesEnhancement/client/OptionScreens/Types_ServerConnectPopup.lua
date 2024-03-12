@@ -7,4 +7,4 @@
 ServerConnectPopup = {}
 
 ---@return self
-function ServerConnectPopup:new() end
+function ServerConnectPopup:new(x, y, width, height) end

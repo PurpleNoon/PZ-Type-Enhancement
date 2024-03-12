@@ -7,4 +7,4 @@
 TutorialFocus = {}
 
 ---@return self
-function TutorialFocus:new() end
+function TutorialFocus:new (focusx, focusy, focuswidth, focusheight) end

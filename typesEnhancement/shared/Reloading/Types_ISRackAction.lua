@@ -7,4 +7,4 @@
 ISRackAction = {}
 
 ---@return self
-function ISRackAction:new() end
+function ISRackAction:new(reloadManager, char, square, time) end

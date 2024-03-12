@@ -7,4 +7,4 @@
 ISSelectCursor = {}
 
 ---@return self
-function ISSelectCursor:new() end
+function ISSelectCursor:new(character, ui, onSquareSelected) end

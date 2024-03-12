@@ -7,4 +7,4 @@
 ISRemoveSheetAction = {}
 
 ---@return self
-function ISRemoveSheetAction:new() end
+function ISRemoveSheetAction:new(character, item, time) end

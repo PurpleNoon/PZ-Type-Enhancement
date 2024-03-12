@@ -7,4 +7,4 @@
 ISSleepDialog = {}
 
 ---@return self
-function ISSleepDialog:new() end
+function ISSleepDialog:new(x, y, width, height, text, player) end

@@ -7,4 +7,4 @@
 ISMoverStateMachine = {}
 
 ---@return self
-function ISMoverStateMachine:new() end
+function ISMoverStateMachine:new (mover) end

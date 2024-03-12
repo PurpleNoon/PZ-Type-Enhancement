@@ -7,4 +7,4 @@
 ISGameLoadingUI = {}
 
 ---@return self
-function ISGameLoadingUI:new() end
+function ISGameLoadingUI:new(status) end

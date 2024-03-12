@@ -7,4 +7,4 @@
 ISScavengeUI = {}
 
 ---@return self
-function ISScavengeUI:new() end
+function ISScavengeUI:new(x, y, width, height, player, zone, clickedSquare) end

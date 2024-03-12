@@ -7,4 +7,4 @@
 ISDemoPopup = {}
 
 ---@return self
-function ISDemoPopup:new() end
+function ISDemoPopup:new (x, y, width, height) end

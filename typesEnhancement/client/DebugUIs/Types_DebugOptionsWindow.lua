@@ -6,16 +6,10 @@
 ---@field Type 'DebugOptionsWindow'
 DebugOptionsWindow = {}
 
----@return self
-function DebugOptionsWindow:new() end
-
 
 ---@class TickBox : ISTickBox
 ---@field Type 'TickBox'
 TickBox = {}
-
----@return self
-function TickBox:new() end
 
 
 ---@class ListBox : ISScrollingListBox
@@ -23,4 +17,4 @@ function TickBox:new() end
 ListBox = {}
 
 ---@return self
-function ListBox:new() end
+function DebugOptionsWindow:new(x, y, width, height) end

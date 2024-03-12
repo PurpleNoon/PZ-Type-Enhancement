@@ -7,4 +7,4 @@
 ISTakeGasolineFromVehicle = {}
 
 ---@return self
-function ISTakeGasolineFromVehicle:new() end
+function ISTakeGasolineFromVehicle:new(character, part, item, time) end

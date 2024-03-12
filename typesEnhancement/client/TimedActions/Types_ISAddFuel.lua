@@ -7,4 +7,4 @@
 ISAddFuel = {}
 
 ---@return self
-function ISAddFuel:new() end
+function ISAddFuel:new(character, generator, petrolCan, time) end

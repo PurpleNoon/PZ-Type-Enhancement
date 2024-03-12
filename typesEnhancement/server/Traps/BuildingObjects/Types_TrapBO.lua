@@ -7,4 +7,4 @@
 TrapBO = {}
 
 ---@return self
-function TrapBO:new() end
+function TrapBO:new(player, trap) end

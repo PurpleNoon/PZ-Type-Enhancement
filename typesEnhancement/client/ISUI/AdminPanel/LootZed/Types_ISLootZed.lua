@@ -7,4 +7,4 @@
 ISLootZed = {}
 
 ---@return self
-function ISLootZed:new() end
+function ISLootZed:new(width, height, player) end

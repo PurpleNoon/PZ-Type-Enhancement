@@ -7,4 +7,4 @@
 ISTicketsUI = {}
 
 ---@return self
-function ISTicketsUI:new() end
+function ISTicketsUI:new(x, y, width, height, player) end

@@ -7,4 +7,4 @@
 ISSLSounds = {}
 
 ---@return self
-function ISSLSounds:new() end
+function ISSLSounds:new (x, y, width, height) end

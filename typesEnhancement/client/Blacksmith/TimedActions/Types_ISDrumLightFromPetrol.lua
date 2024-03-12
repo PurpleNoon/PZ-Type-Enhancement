@@ -7,4 +7,4 @@
 ISDrumLightFromPetrol = {}
 
 ---@return self
-function ISDrumLightFromPetrol:new() end
+function ISDrumLightFromPetrol:new(character, metalDrum, lighter, petrol, time) end

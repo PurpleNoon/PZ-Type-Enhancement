@@ -7,4 +7,4 @@
 ISPlantInfoAction = {}
 
 ---@return self
-function ISPlantInfoAction:new() end
+function ISPlantInfoAction:new(character, plant) end

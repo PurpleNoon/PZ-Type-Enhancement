@@ -7,4 +7,4 @@
 ISUninstallVehiclePart = {}
 
 ---@return self
-function ISUninstallVehiclePart:new() end
+function ISUninstallVehiclePart:new(character, part, time) end

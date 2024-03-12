@@ -7,4 +7,4 @@
 ISGameSoundVolumeControl = {}
 
 ---@return self
-function ISGameSoundVolumeControl:new() end
+function ISGameSoundVolumeControl:new(x, y, width, height, target, targetFunc) end

@@ -7,4 +7,4 @@
 ISSmashWindow = {}
 
 ---@return self
-function ISSmashWindow:new() end
+function ISSmashWindow:new(character, item, time) end

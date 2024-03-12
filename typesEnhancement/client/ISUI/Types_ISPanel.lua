@@ -7,4 +7,4 @@
 ISPanel = {}
 
 ---@return self
-function ISPanel:new() end
+function ISPanel:new (x, y, width, height) end

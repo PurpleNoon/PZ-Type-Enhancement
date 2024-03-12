@@ -7,4 +7,4 @@
 ISReadWorldMap = {}
 
 ---@return self
-function ISReadWorldMap:new() end
+function ISReadWorldMap:new(character) end

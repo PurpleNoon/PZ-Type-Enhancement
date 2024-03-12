@@ -7,4 +7,4 @@
 ISAddSheetAction = {}
 
 ---@return self
-function ISAddSheetAction:new() end
+function ISAddSheetAction:new(character, item, time) end

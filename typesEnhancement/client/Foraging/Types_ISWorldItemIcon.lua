@@ -7,4 +7,4 @@
 ISWorldItemIcon = {}
 
 ---@return self
-function ISWorldItemIcon:new() end
+function ISWorldItemIcon:new(_manager, _icon) end

@@ -7,4 +7,4 @@
 ISBuildAction = {}
 
 ---@return self
-function ISBuildAction:new() end
+function ISBuildAction:new(character, item, x, y, z, north, spriteName, time) end

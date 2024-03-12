@@ -7,4 +7,4 @@
 ISCharacterInfo = {}
 
 ---@return self
-function ISCharacterInfo:new() end
+function ISCharacterInfo:new (x, y, width, height, playerNum) end

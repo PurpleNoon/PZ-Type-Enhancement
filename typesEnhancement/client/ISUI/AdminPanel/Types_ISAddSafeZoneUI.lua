@@ -7,4 +7,4 @@
 ISAddSafeZoneUI = {}
 
 ---@return self
-function ISAddSafeZoneUI:new() end
+function ISAddSafeZoneUI:new(x, y, width, height, character) end

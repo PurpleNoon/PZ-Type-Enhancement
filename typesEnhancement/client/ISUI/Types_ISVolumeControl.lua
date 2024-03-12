@@ -7,4 +7,4 @@
 ISVolumeControl = {}
 
 ---@return self
-function ISVolumeControl:new() end
+function ISVolumeControl:new(x, y, width, height, target, targetFunc) end

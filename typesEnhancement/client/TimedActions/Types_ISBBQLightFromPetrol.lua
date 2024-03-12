@@ -7,4 +7,4 @@
 ISBBQLightFromPetrol = {}
 
 ---@return self
-function ISBBQLightFromPetrol:new() end
+function ISBBQLightFromPetrol:new(character, bbq, lighter, petrol, time) end

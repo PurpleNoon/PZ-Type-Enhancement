@@ -7,4 +7,4 @@
 RWMPanel = {}
 
 ---@return self
-function RWMPanel:new() end
+function RWMPanel:new (x, y, width, height) end

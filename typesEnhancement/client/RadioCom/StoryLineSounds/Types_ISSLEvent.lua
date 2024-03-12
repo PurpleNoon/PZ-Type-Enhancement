@@ -7,4 +7,4 @@
 ISSLEvent = {}
 
 ---@return self
-function ISSLEvent:new() end
+function ISSLEvent:new (x, y, width, height) end

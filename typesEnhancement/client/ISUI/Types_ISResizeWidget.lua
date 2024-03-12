@@ -7,4 +7,4 @@
 ISResizeWidget = {}
 
 ---@return self
-function ISResizeWidget:new() end
+function ISResizeWidget:new (x, y, width, height,  resizeTarget, yonly) end

@@ -7,4 +7,4 @@
 ISGeneralCheats = {}
 
 ---@return self
-function ISGeneralCheats:new() end
+function ISGeneralCheats:new(x, y, width, height, doStencil) end

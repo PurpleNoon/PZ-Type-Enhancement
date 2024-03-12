@@ -7,4 +7,4 @@
 RWMMicrophone = {}
 
 ---@return self
-function RWMMicrophone:new() end
+function RWMMicrophone:new (x, y, width, height) end

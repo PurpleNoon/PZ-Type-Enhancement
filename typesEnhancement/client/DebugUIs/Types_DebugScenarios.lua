@@ -7,4 +7,4 @@
 DebugScenarios = {}
 
 ---@return self
-function DebugScenarios:new() end
+function DebugScenarios:new (x, y, width, height) end

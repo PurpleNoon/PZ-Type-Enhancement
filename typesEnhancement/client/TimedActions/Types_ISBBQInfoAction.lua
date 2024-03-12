@@ -7,4 +7,4 @@
 ISBBQInfoAction = {}
 
 ---@return self
-function ISBBQInfoAction:new() end
+function ISBBQInfoAction:new(character, bbq) end

@@ -7,4 +7,4 @@
 ISLootStreetTestUI = {}
 
 ---@return self
-function ISLootStreetTestUI:new() end
+function ISLootStreetTestUI:new(x, y, character) end

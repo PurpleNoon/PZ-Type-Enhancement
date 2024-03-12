@@ -7,4 +7,4 @@
 ISCreateFactionUI = {}
 
 ---@return self
-function ISCreateFactionUI:new() end
+function ISCreateFactionUI:new(x, y, width, height, player) end

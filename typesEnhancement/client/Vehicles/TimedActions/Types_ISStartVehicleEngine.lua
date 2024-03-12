@@ -7,4 +7,4 @@
 ISStartVehicleEngine = {}
 
 ---@return self
-function ISStartVehicleEngine:new() end
+function ISStartVehicleEngine:new(character) end

@@ -7,4 +7,4 @@
 ISServerDisconnectUI = {}
 
 ---@return self
-function ISServerDisconnectUI:new() end
+function ISServerDisconnectUI:new(reason) end

@@ -7,4 +7,4 @@
 ISAddFuelAction = {}
 
 ---@return self
-function ISAddFuelAction:new() end
+function ISAddFuelAction:new(character, campfire, item, fuelAmt, time) end

@@ -7,4 +7,4 @@
 ISOptionPanel = {}
 
 ---@return self
-function ISOptionPanel:new() end
+function ISOptionPanel:new (x, y, width, height) end

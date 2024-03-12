@@ -7,4 +7,4 @@
 DailyValuesDebug = {}
 
 ---@return self
-function DailyValuesDebug:new() end
+function DailyValuesDebug:new (x, y, width, height, player) end

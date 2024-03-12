@@ -7,4 +7,4 @@
 DebugLogSettings = {}
 
 ---@return self
-function DebugLogSettings:new() end
+function DebugLogSettings:new(x, y, width, height) end

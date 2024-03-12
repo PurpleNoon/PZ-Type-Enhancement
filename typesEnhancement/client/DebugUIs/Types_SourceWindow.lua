@@ -7,4 +7,4 @@
 SourceWindow = {}
 
 ---@return self
-function SourceWindow:new() end
+function SourceWindow:new (x, y, width, height, filename) end

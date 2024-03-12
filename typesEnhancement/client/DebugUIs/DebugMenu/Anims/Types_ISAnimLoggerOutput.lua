@@ -7,4 +7,4 @@
 ISAnimLoggerOutput = {}
 
 ---@return self
-function ISAnimLoggerOutput:new() end
+function ISAnimLoggerOutput:new(x, y, width, height, doStencil) end

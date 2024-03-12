@@ -7,4 +7,4 @@
 DebugToolstrip = {}
 
 ---@return self
-function DebugToolstrip:new() end
+function DebugToolstrip:new (x, y, width, height) end

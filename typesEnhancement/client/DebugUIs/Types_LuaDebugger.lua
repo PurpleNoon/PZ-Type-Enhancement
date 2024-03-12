@@ -7,4 +7,4 @@
 LuaDebugger = {}
 
 ---@return self
-function LuaDebugger:new() end
+function LuaDebugger:new (x, y, width, height) end

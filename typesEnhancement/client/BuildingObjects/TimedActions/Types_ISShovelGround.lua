@@ -7,4 +7,4 @@
 ISShovelGround = {}
 
 ---@return self
-function ISShovelGround:new() end
+function ISShovelGround:new(character, emptyBag, sandTile, newSprite, newBag) end

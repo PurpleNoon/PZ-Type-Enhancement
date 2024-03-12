@@ -7,4 +7,4 @@
 ISItemsListTable = {}
 
 ---@return self
-function ISItemsListTable:new() end
+function ISItemsListTable:new (x, y, width, height, viewer) end

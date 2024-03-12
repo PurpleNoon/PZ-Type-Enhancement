@@ -7,4 +7,4 @@
 ISStopFurnaceFire = {}
 
 ---@return self
-function ISStopFurnaceFire:new() end
+function ISStopFurnaceFire:new(furnace, character) end

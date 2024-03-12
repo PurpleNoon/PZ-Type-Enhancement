@@ -7,4 +7,4 @@
 ISDrinkFromBottle = {}
 
 ---@return self
-function ISDrinkFromBottle:new() end
+function ISDrinkFromBottle:new (character, item, uses) end

@@ -7,4 +7,4 @@
 STrapGlobalObject = {}
 
 ---@return self
-function STrapGlobalObject:new() end
+function STrapGlobalObject:new(luaSystem, globalObject) end

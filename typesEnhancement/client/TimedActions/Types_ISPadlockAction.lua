@@ -7,4 +7,4 @@
 ISPadlockAction = {}
 
 ---@return self
-function ISPadlockAction:new() end
+function ISPadlockAction:new(character, thump, padlock, pdata, lock) end

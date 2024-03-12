@@ -7,4 +7,4 @@
 ISUseBellows = {}
 
 ---@return self
-function ISUseBellows:new() end
+function ISUseBellows:new(furnace, bellows, character) end

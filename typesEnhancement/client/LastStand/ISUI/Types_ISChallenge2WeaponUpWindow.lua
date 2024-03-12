@@ -7,4 +7,4 @@
 ISChallenge2WeaponUpWindow = {}
 
 ---@return self
-function ISChallenge2WeaponUpWindow:new() end
+function ISChallenge2WeaponUpWindow:new(x, y, width, height, player) end

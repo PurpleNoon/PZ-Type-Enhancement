@@ -7,4 +7,4 @@
 ISControllerTestPanel = {}
 
 ---@return self
-function ISControllerTestPanel:new() end
+function ISControllerTestPanel:new(x, y, width, height) end

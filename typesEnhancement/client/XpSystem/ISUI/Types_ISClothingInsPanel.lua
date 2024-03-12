@@ -7,4 +7,4 @@
 ISClothingInsPanel = {}
 
 ---@return self
-function ISClothingInsPanel:new() end
+function ISClothingInsPanel:new(player, x, y, width, height) end

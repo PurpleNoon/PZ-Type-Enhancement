@@ -7,4 +7,4 @@
 ISCampingInfoAction = {}
 
 ---@return self
-function ISCampingInfoAction:new() end
+function ISCampingInfoAction:new(character, campfireObject, campfire) end

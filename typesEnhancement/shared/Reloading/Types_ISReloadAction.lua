@@ -7,4 +7,4 @@
 ISReloadAction = {}
 
 ---@return self
-function ISReloadAction:new() end
+function ISReloadAction:new(reloadManager, char, square, time) end

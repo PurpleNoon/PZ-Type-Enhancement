@@ -7,4 +7,4 @@
 ISConsolidateDrainableAll = {}
 
 ---@return self
-function ISConsolidateDrainableAll:new() end
+function ISConsolidateDrainableAll:new(character, drainable, consolidateList, time) end

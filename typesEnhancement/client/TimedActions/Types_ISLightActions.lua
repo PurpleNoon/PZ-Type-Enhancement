@@ -7,4 +7,4 @@
 ISLightActions = {}
 
 ---@return self
-function ISLightActions:new() end
+function ISLightActions:new(mode, character, lightswitch, item) end

@@ -7,4 +7,4 @@
 ISShovelGroundCursor = {}
 
 ---@return self
-function ISShovelGroundCursor:new() end
+function ISShovelGroundCursor:new(sprite, northSprite, character, groundType) end

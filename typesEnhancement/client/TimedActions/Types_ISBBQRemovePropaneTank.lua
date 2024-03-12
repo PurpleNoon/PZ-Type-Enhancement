@@ -7,4 +7,4 @@
 ISBBQRemovePropaneTank = {}
 
 ---@return self
-function ISBBQRemovePropaneTank:new() end
+function ISBBQRemovePropaneTank:new (character, bbq, time) end

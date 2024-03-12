@@ -7,4 +7,4 @@
 ISStopVehicle = {}
 
 ---@return self
-function ISStopVehicle:new() end
+function ISStopVehicle:new(character) end

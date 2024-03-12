@@ -7,4 +7,4 @@
 RWMSubEditPreset = {}
 
 ---@return self
-function RWMSubEditPreset:new() end
+function RWMSubEditPreset:new (x, y, width, height, target, onSave) end

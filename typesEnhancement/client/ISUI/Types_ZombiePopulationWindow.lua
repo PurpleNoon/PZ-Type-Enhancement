@@ -7,4 +7,4 @@
 ZombiePopulationWindow = {}
 
 ---@return self
-function ZombiePopulationWindow:new() end
+function ZombiePopulationWindow:new(x, y, width, height) end

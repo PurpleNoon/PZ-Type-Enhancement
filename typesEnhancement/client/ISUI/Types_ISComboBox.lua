@@ -6,16 +6,10 @@
 ---@field Type 'ISComboBox'
 ISComboBox = {}
 
----@return self
-function ISComboBox:new() end
-
 
 ---@class ISComboBoxEditor : ISTextEntryBox
 ---@field Type 'ISComboBoxEditor'
 ISComboBoxEditor = {}
-
----@return self
-function ISComboBoxEditor:new() end
 
 
 ---@class ISComboBoxPopup : ISScrollingListBox
@@ -23,4 +17,10 @@ function ISComboBoxEditor:new() end
 ISComboBoxPopup = {}
 
 ---@return self
-function ISComboBoxPopup:new() end
+function ISComboBoxEditor:new(x, y, width, height, comboBox) end
+
+---@return self
+function ISComboBoxPopup:new(x, y, width, height) end
+
+---@return self
+function ISComboBox:new (x, y, width, height, target, onChange, onChangeArg1, onChangeArg2) end

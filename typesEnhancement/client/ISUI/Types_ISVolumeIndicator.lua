@@ -7,4 +7,4 @@
 ISVolumeIndicator = {}
 
 ---@return self
-function ISVolumeIndicator:new() end
+function ISVolumeIndicator:new(x, y, width, height, target, targetFunc) end

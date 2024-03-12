@@ -7,4 +7,4 @@
 ISCheatPanelUI = {}
 
 ---@return self
-function ISCheatPanelUI:new() end
+function ISCheatPanelUI:new(x, y, width, height, player) end

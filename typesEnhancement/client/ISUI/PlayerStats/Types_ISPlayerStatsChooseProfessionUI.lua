@@ -7,4 +7,4 @@
 ISPlayerStatsChooseProfessionUI = {}
 
 ---@return self
-function ISPlayerStatsChooseProfessionUI:new() end
+function ISPlayerStatsChooseProfessionUI:new(x, y, width, height, target, onclick, player) end

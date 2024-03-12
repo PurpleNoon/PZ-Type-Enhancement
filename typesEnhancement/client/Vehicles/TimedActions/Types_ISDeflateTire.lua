@@ -7,4 +7,4 @@
 ISDeflateTire = {}
 
 ---@return self
-function ISDeflateTire:new() end
+function ISDeflateTire:new(character, part, psi, time) end

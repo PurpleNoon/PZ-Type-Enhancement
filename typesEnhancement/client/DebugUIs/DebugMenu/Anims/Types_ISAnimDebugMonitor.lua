@@ -7,4 +7,4 @@
 ISAnimDebugMonitor = {}
 
 ---@return self
-function ISAnimDebugMonitor:new() end
+function ISAnimDebugMonitor:new (x, y, width, height, player) end

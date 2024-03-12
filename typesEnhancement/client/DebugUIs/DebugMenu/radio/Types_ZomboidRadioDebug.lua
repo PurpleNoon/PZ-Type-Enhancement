@@ -7,4 +7,4 @@
 ZomboidRadioDebug = {}
 
 ---@return self
-function ZomboidRadioDebug:new() end
+function ZomboidRadioDebug:new(x, y, width, height, title) end

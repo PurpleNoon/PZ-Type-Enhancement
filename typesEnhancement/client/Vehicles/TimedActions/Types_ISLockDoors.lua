@@ -7,4 +7,4 @@
 ISLockDoors = {}
 
 ---@return self
-function ISLockDoors:new() end
+function ISLockDoors:new(character, vehicle, locked, time) end

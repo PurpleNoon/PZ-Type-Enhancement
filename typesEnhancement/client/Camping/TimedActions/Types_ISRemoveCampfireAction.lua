@@ -7,4 +7,4 @@
 ISRemoveCampfireAction = {}
 
 ---@return self
-function ISRemoveCampfireAction:new() end
+function ISRemoveCampfireAction:new (character, campfire, time) end

@@ -7,4 +7,4 @@
 ISSearchWindow = {}
 
 ---@return self
-function ISSearchWindow:new() end
+function ISSearchWindow:new(_manager) end

@@ -7,4 +7,7 @@
 ISPlayerDebug = {}
 
 ---@return self
-function ISPlayerDebug:new() end
+function ISPlayerDebug:new(x, y, width, height, title) end
+
+---@return self
+function ISPlayerDebug:new(x, y, width, height) end

@@ -6,24 +6,15 @@
 ---@field Type 'NewGameScreen'
 NewGameScreen = {}
 
----@return self
-function NewGameScreen:new() end
-
 
 ---@class HorizontalLine : ISPanel
 ---@field Type 'HorizontalLine'
 HorizontalLine = {}
 
----@return self
-function HorizontalLine:new() end
-
 
 ---@class MainPanel : ISPanelJoypad
 ---@field Type 'MainPanel'
 MainPanel = {}
-
----@return self
-function MainPanel:new() end
 
 
 ---@class RichText : ISRichTextPanel
@@ -31,4 +22,7 @@ function MainPanel:new() end
 RichText = {}
 
 ---@return self
-function RichText:new() end
+function HorizontalLine:new(x, y, width) end
+
+---@return self
+function NewGameScreen:new (x, y, width, height) end

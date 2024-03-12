@@ -7,4 +7,4 @@
 ISSplint = {}
 
 ---@return self
-function ISSplint:new() end
+function ISSplint:new(doctor, otherPlayer, rippedSheet, plank, bodyPart, doIt) end

@@ -7,4 +7,4 @@
 ISOvenUI = {}
 
 ---@return self
-function ISOvenUI:new() end
+function ISOvenUI:new(x, y, width, height, oven, character) end

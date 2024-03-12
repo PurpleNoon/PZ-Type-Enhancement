@@ -7,4 +7,4 @@
 ISMultiStageBuild = {}
 
 ---@return self
-function ISMultiStageBuild:new() end
+function ISMultiStageBuild:new(character, stage, item, time) end

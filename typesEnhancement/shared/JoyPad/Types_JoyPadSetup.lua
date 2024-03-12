@@ -6,13 +6,13 @@
 ---@field Type 'JoypadControllerData'
 JoypadControllerData = {}
 
----@return self
-function JoypadControllerData:new() end
-
 
 ---@class JoypadData : ISBaseObject
 ---@field Type 'JoypadData'
 JoypadData = {}
+
+---@return self
+function JoypadControllerData:new(id) end
 
 ---@return self
 function JoypadData:new() end

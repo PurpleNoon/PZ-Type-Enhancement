@@ -7,4 +7,4 @@
 ISBBQToggle = {}
 
 ---@return self
-function ISBBQToggle:new() end
+function ISBBQToggle:new(character, bbq, time) end

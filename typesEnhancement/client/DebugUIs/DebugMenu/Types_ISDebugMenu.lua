@@ -7,4 +7,4 @@
 ISDebugMenu = {}
 
 ---@return self
-function ISDebugMenu:new() end
+function ISDebugMenu:new(x, y, width, height) end

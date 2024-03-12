@@ -7,4 +7,4 @@
 ISHarvestPlantAction = {}
 
 ---@return self
-function ISHarvestPlantAction:new() end
+function ISHarvestPlantAction:new(character, plant, time) end

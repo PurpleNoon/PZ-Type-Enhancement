@@ -7,4 +7,4 @@
 ISExtAnimListDebugUI = {}
 
 ---@return self
-function ISExtAnimListDebugUI:new() end
+function ISExtAnimListDebugUI:new(x, y, character) end

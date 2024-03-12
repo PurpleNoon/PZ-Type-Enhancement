@@ -7,4 +7,4 @@
 ISTabPanel = {}
 
 ---@return self
-function ISTabPanel:new() end
+function ISTabPanel:new (x, y, width, height) end

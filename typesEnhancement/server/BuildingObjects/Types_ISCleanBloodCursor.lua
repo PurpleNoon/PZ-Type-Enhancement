@@ -7,4 +7,4 @@
 ISCleanBloodCursor = {}
 
 ---@return self
-function ISCleanBloodCursor:new() end
+function ISCleanBloodCursor:new(sprite, northSprite, character) end

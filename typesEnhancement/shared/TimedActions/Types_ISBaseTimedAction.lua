@@ -7,4 +7,4 @@
 ISBaseTimedAction = {}
 
 ---@return self
-function ISBaseTimedAction:new() end
+function ISBaseTimedAction:new (character) end

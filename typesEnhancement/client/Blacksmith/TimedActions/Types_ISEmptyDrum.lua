@@ -7,4 +7,4 @@
 ISEmptyDrum = {}
 
 ---@return self
-function ISEmptyDrum:new() end
+function ISEmptyDrum:new(character, metalDrum) end

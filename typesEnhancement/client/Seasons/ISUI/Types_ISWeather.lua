@@ -7,4 +7,4 @@
 ISWeather = {}
 
 ---@return self
-function ISWeather:new() end
+function ISWeather:new (x, y, width, height) end

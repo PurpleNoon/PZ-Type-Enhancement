@@ -7,4 +7,4 @@
 ISFitnessUI = {}
 
 ---@return self
-function ISFitnessUI:new() end
+function ISFitnessUI:new(x, y, width, height, player, clickedSquare) end

@@ -6,32 +6,20 @@
 ---@field Type 'ModSelector'
 ModSelector = {}
 
----@return self
-function ModSelector:new() end
-
 
 ---@class ModListBox : ISScrollingListBox
 ---@field Type 'ModListBox'
 ModListBox = {}
-
----@return self
-function ModListBox:new() end
 
 
 ---@class ModThumbnailPanel : ISPanelJoypad
 ---@field Type 'ModThumbnailPanel'
 ModThumbnailPanel = {}
 
----@return self
-function ModThumbnailPanel:new() end
-
 
 ---@class ModPosterPanel : ISPanelJoypad
 ---@field Type 'ModPosterPanel'
 ModPosterPanel = {}
-
----@return self
-function ModPosterPanel:new() end
 
 
 ---@class ModInfoPanel : ISPanelJoypad
@@ -39,4 +27,16 @@ function ModPosterPanel:new() end
 ModInfoPanel = {}
 
 ---@return self
-function ModInfoPanel:new() end
+function ModListBox:new(x, y, width, height) end
+
+---@return self
+function ModThumbnailPanel:new(x, y, width, height) end
+
+---@return self
+function ModPosterPanel:new(x, y, width, height) end
+
+---@return self
+function ModInfoPanel:new(x, y, width, height) end
+
+---@return self
+function ModSelector:new(x, y, width, height) end

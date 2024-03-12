@@ -7,4 +7,4 @@
 ISCureFliesAction = {}
 
 ---@return self
-function ISCureFliesAction:new() end
+function ISCureFliesAction:new(character, item, uses, plant, time) end

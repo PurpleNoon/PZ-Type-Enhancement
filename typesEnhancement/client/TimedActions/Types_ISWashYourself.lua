@@ -7,4 +7,4 @@
 ISWashYourself = {}
 
 ---@return self
-function ISWashYourself:new() end
+function ISWashYourself:new(character, sink, soapList) end

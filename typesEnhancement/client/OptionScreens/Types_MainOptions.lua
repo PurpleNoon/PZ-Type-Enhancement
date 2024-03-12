@@ -6,24 +6,15 @@
 ---@field Type 'MainOptions'
 MainOptions = {}
 
----@return self
-function MainOptions:new() end
-
 
 ---@class GameOption : ISBaseObject
 ---@field Type 'GameOption'
 GameOption = {}
 
----@return self
-function GameOption:new() end
-
 
 ---@class GameOptions : ISBaseObject
 ---@field Type 'GameOptions'
 GameOptions = {}
-
----@return self
-function GameOptions:new() end
 
 
 ---@class HorizontalLine : ISPanel
@@ -31,4 +22,13 @@ function GameOptions:new() end
 HorizontalLine = {}
 
 ---@return self
-function HorizontalLine:new() end
+function GameOption:new(name, control, arg1, arg2) end
+
+---@return self
+function GameOptions:new() end
+
+---@return self
+function HorizontalLine:new(x, y, width) end
+
+---@return self
+function MainOptions:new (x, y, width, height) end

@@ -7,4 +7,4 @@
 ISDebugSubPanelBase = {}
 
 ---@return self
-function ISDebugSubPanelBase:new() end
+function ISDebugSubPanelBase:new(x, y, width, height, doStencil) end

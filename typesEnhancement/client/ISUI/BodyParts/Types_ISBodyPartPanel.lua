@@ -7,4 +7,4 @@
 ISBodyPartPanel = {}
 
 ---@return self
-function ISBodyPartPanel:new() end
+function ISBodyPartPanel:new (player, x, y, target, onPartSelected) end

@@ -7,4 +7,4 @@
 CoopUserName = {}
 
 ---@return self
-function CoopUserName:new() end
+function CoopUserName:new(x, y, width, height) end

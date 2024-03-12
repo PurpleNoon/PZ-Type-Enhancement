@@ -7,4 +7,4 @@
 ISTextEntryBox = {}
 
 ---@return self
-function ISTextEntryBox:new() end
+function ISTextEntryBox:new (title, x, y, width, height) end

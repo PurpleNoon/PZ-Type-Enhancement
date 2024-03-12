@@ -7,4 +7,4 @@
 ISSkillProgressBar = {}
 
 ---@return self
-function ISSkillProgressBar:new() end
+function ISSkillProgressBar:new (x, y, width, height, playerNum, perk, parent) end

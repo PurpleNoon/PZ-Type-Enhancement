@@ -7,4 +7,4 @@
 ISLightFromPetrol = {}
 
 ---@return self
-function ISLightFromPetrol:new() end
+function ISLightFromPetrol:new(character, campfire, lighter, petrol, time) end

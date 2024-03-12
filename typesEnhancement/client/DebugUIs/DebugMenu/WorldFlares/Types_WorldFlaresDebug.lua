@@ -7,4 +7,4 @@
 WorldFlaresDebug = {}
 
 ---@return self
-function WorldFlaresDebug:new() end
+function WorldFlaresDebug:new(x, y, width, height, title) end

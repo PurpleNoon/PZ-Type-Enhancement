@@ -7,4 +7,4 @@
 ISAttachItemHotbar = {}
 
 ---@return self
-function ISAttachItemHotbar:new() end
+function ISAttachItemHotbar:new(character, item, slot, slotIndex, slotDef) end

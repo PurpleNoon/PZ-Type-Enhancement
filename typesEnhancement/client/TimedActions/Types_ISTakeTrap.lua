@@ -7,4 +7,4 @@
 ISTakeTrap = {}
 
 ---@return self
-function ISTakeTrap:new() end
+function ISTakeTrap:new(character, trap, time) end

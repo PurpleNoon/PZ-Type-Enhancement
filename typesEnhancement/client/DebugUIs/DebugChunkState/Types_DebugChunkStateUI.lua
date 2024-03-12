@@ -6,13 +6,13 @@
 ---@field Type 'DebugChunkStateUI'
 DebugChunkStateUI = {}
 
----@return self
-function DebugChunkStateUI:new() end
-
 
 ---@class DebugChunkStateUI_OptionsPanel : ISPanel
 ---@field Type 'DebugChunkStateUI_OptionsPanel'
 DebugChunkStateUI_OptionsPanel = {}
 
 ---@return self
-function DebugChunkStateUI_OptionsPanel:new() end
+function OptionsPanel:new(x, y, width, height, gameState) end
+
+---@return self
+function DebugChunkStateUI:new(x, y, width, height, gameState) end

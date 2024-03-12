@@ -7,4 +7,4 @@
 TutorialStep = {}
 
 ---@return self
-function TutorialStep:new() end
+function TutorialStep:new (type) end

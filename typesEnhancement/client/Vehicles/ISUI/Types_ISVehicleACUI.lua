@@ -7,4 +7,4 @@
 ISVehicleACUI = {}
 
 ---@return self
-function ISVehicleACUI:new() end
+function ISVehicleACUI:new(x, y, character) end

@@ -7,4 +7,4 @@
 ISEquipWeaponAction = {}
 
 ---@return self
-function ISEquipWeaponAction:new() end
+function ISEquipWeaponAction:new (character, item, time, primary, twoHands) end

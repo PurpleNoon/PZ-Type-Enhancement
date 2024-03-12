@@ -7,4 +7,4 @@
 RWMTestPane = {}
 
 ---@return self
-function RWMTestPane:new() end
+function RWMTestPane:new (x, y, width, height) end

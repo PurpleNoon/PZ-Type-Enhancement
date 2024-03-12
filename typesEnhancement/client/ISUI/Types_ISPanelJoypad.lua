@@ -7,4 +7,4 @@
 ISPanelJoypad = {}
 
 ---@return self
-function ISPanelJoypad:new() end
+function ISPanelJoypad:new (x, y, width, height) end

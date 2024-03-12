@@ -7,4 +7,4 @@
 ISForageAction = {}
 
 ---@return self
-function ISForageAction:new() end
+function ISForageAction:new(_forageIcon, _targetContainer, _discardItems) end

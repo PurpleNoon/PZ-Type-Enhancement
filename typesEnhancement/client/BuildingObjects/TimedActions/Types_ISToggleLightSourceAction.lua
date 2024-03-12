@@ -7,4 +7,4 @@
 ISToggleLightSourceAction = {}
 
 ---@return self
-function ISToggleLightSourceAction:new() end
+function ISToggleLightSourceAction:new(character, lightSource, time) end

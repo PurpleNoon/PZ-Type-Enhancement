@@ -7,4 +7,4 @@
 ISPickupBrokenGlass = {}
 
 ---@return self
-function ISPickupBrokenGlass:new() end
+function ISPickupBrokenGlass:new(character, glass, time) end

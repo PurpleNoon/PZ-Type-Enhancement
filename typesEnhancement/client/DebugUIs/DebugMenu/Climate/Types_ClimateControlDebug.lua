@@ -7,4 +7,4 @@
 ClimateControlDebug = {}
 
 ---@return self
-function ClimateControlDebug:new() end
+function ClimateControlDebug:new(x, y, width, height, title) end

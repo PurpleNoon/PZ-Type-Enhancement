@@ -7,4 +7,4 @@
 ISSliderPanel = {}
 
 ---@return self
-function ISSliderPanel:new() end
+function ISSliderPanel:new (x, y, width, height, target, onValueChange, customPaginate) end

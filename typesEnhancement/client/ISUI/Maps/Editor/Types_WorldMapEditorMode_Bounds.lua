@@ -7,4 +7,4 @@
 WorldMapEditorMode_Bounds = {}
 
 ---@return self
-function WorldMapEditorMode_Bounds:new() end
+function WorldMapEditorMode_Bounds:new(editor) end

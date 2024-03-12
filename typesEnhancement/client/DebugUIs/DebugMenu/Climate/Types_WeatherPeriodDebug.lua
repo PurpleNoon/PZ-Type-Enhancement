@@ -7,4 +7,4 @@
 WeatherPeriodDebug = {}
 
 ---@return self
-function WeatherPeriodDebug:new() end
+function WeatherPeriodDebug:new (x, y, width, height, player) end

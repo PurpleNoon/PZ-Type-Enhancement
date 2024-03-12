@@ -7,4 +7,4 @@
 ISSleepInTentAction = {}
 
 ---@return self
-function ISSleepInTentAction:new() end
+function ISSleepInTentAction:new (character, tent, time) end

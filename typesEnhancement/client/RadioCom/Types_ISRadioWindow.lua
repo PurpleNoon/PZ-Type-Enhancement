@@ -7,4 +7,4 @@
 ISRadioWindow = {}
 
 ---@return self
-function ISRadioWindow:new() end
+function ISRadioWindow:new (x, y, width, height, player) end

@@ -7,4 +7,4 @@
 ISHorn = {}
 
 ---@return self
-function ISHorn:new() end
+function ISHorn:new(character) end

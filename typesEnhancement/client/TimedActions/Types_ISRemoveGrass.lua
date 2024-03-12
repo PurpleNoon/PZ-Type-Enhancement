@@ -7,4 +7,4 @@
 ISRemoveGrass = {}
 
 ---@return self
-function ISRemoveGrass:new() end
+function ISRemoveGrass:new(character, square) end

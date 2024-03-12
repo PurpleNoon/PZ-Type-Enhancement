@@ -7,4 +7,4 @@
 ISEnterVehicle = {}
 
 ---@return self
-function ISEnterVehicle:new() end
+function ISEnterVehicle:new(character, vehicle, seat) end

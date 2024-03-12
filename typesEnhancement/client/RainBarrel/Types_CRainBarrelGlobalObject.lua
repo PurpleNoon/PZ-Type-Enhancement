@@ -7,4 +7,4 @@
 CRainBarrelGlobalObject = {}
 
 ---@return self
-function CRainBarrelGlobalObject:new() end
+function CRainBarrelGlobalObject:new(luaSystem, globalObject) end

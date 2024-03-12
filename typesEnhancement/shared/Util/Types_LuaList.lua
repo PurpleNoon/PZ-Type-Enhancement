@@ -7,4 +7,4 @@
 LuaList = {}
 
 ---@return self
-function LuaList:new() end
+function LuaList:new () end

@@ -7,4 +7,4 @@
 ISResizableButton = {}
 
 ---@return self
-function ISResizableButton:new() end
+function ISResizableButton:new(x, y, width, height, title, clicktarget, onclick, onmousedown, allowMouseUpProcessing) end

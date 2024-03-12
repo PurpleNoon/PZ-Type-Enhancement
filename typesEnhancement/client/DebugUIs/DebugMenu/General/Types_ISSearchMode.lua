@@ -7,4 +7,4 @@
 ISSearchMode = {}
 
 ---@return self
-function ISSearchMode:new() end
+function ISSearchMode:new(x, y, width, height, doStencil) end

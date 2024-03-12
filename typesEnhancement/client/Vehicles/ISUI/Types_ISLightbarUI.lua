@@ -7,4 +7,4 @@
 ISLightbarUI = {}
 
 ---@return self
-function ISLightbarUI:new() end
+function ISLightbarUI:new(x, y, width, height, playerObj) end

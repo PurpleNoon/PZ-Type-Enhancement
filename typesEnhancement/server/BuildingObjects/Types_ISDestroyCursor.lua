@@ -7,4 +7,4 @@
 ISDestroyCursor = {}
 
 ---@return self
-function ISDestroyCursor:new() end
+function ISDestroyCursor:new(character, dismantle, sledgehammer) end

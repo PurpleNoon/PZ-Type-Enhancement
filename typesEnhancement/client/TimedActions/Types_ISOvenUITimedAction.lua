@@ -7,4 +7,4 @@
 ISOvenUITimedAction = {}
 
 ---@return self
-function ISOvenUITimedAction:new() end
+function ISOvenUITimedAction:new(character, stove, mcwave) end

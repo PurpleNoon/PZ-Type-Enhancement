@@ -7,4 +7,4 @@
 ISGetCompost = {}
 
 ---@return self
-function ISGetCompost:new() end
+function ISGetCompost:new(character, compost, item, time) end

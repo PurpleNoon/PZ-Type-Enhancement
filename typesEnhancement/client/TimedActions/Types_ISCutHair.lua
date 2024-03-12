@@ -7,4 +7,4 @@
 ISCutHair = {}
 
 ---@return self
-function ISCutHair:new() end
+function ISCutHair:new(character, hairStyle, item, time) end

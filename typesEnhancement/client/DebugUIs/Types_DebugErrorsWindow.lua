@@ -7,4 +7,4 @@
 DebugErrorsWindow = {}
 
 ---@return self
-function DebugErrorsWindow:new() end
+function DebugErrorsWindow:new(x, y, width, height) end

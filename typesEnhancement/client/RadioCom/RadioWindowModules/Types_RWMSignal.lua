@@ -7,4 +7,4 @@
 RWMSignal = {}
 
 ---@return self
-function RWMSignal:new() end
+function RWMSignal:new (x, y, width, height) end

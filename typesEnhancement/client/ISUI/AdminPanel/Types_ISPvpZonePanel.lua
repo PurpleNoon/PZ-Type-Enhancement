@@ -7,4 +7,4 @@
 ISPvpZonePanel = {}
 
 ---@return self
-function ISPvpZonePanel:new() end
+function ISPvpZonePanel:new(x, y, width, height, player) end

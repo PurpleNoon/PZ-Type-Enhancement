@@ -7,4 +7,4 @@
 ISOpenCloseCurtain = {}
 
 ---@return self
-function ISOpenCloseCurtain:new() end
+function ISOpenCloseCurtain:new(character, item, time) end

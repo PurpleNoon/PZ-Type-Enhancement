@@ -7,4 +7,4 @@
 WorldMapEditorMode = {}
 
 ---@return self
-function WorldMapEditorMode:new() end
+function WorldMapEditorMode:new(editor) end

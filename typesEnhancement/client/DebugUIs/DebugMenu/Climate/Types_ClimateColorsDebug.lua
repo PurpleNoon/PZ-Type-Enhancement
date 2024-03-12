@@ -7,4 +7,4 @@
 ClimateColorsDebug = {}
 
 ---@return self
-function ClimateColorsDebug:new() end
+function ClimateColorsDebug:new(x, y, width, height, doStencil) end

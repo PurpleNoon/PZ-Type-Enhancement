@@ -7,4 +7,4 @@
 WorldMapEditorResizer = {}
 
 ---@return self
-function WorldMapEditorResizer:new() end
+function WorldMapEditorResizer:new(editor) end

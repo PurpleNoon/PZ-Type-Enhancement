@@ -7,4 +7,4 @@
 ISGameDebugPanel = {}
 
 ---@return self
-function ISGameDebugPanel:new() end
+function ISGameDebugPanel:new(x, y, width, height, doStencil) end

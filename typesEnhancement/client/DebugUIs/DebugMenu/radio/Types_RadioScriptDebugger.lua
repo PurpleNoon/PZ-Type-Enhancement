@@ -7,4 +7,4 @@
 RadioScriptDebugger = {}
 
 ---@return self
-function RadioScriptDebugger:new() end
+function RadioScriptDebugger:new(x, y, width, height, title) end

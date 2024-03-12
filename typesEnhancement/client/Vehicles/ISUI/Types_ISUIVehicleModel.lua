@@ -7,4 +7,4 @@
 ISUIVehicleModel = {}
 
 ---@return self
-function ISUIVehicleModel:new() end
+function ISUIVehicleModel:new(x, y, width, height) end

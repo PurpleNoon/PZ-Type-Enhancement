@@ -7,4 +7,4 @@
 ISAdminPowerUI = {}
 
 ---@return self
-function ISAdminPowerUI:new() end
+function ISAdminPowerUI:new(x, y, width, height, player) end

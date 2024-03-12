@@ -7,4 +7,4 @@
 ModMoreInfo = {}
 
 ---@return self
-function ModMoreInfo:new() end
+function ModMoreInfo:new (x, y, width, height) end

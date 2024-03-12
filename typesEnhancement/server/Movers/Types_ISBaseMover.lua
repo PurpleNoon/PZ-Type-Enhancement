@@ -7,4 +7,4 @@
 ISBaseMover = {}
 
 ---@return self
-function ISBaseMover:new() end
+function ISBaseMover:new () end

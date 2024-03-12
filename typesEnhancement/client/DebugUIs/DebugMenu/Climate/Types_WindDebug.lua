@@ -7,4 +7,4 @@
 WindDebug = {}
 
 ---@return self
-function WindDebug:new() end
+function WindDebug:new (x, y, width, height, player) end

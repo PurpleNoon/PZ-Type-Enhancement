@@ -7,4 +7,4 @@
 ISEmoteRadialMenu = {}
 
 ---@return self
-function ISEmoteRadialMenu:new() end
+function ISEmoteRadialMenu:new(character) end

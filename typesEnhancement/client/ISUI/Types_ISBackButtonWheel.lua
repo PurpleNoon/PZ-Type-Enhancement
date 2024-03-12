@@ -7,4 +7,4 @@
 ISBackButtonWheel = {}
 
 ---@return self
-function ISBackButtonWheel:new() end
+function ISBackButtonWheel:new(playerNum) end

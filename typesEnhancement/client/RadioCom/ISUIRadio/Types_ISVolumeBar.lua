@@ -7,4 +7,4 @@
 ISVolumeBar = {}
 
 ---@return self
-function ISVolumeBar:new() end
+function ISVolumeBar:new (x, y, width, height, onVolumeChange, onVolumeChangeTarget) end

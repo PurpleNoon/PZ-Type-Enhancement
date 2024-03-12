@@ -7,4 +7,4 @@
 IsoRegionDetails = {}
 
 ---@return self
-function IsoRegionDetails:new() end
+function IsoRegionDetails:new (x, y, width, height, player) end

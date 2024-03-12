@@ -7,4 +7,4 @@
 ISPlayerDataObject = {}
 
 ---@return self
-function ISPlayerDataObject:new() end
+function ISPlayerDataObject:new (id) end

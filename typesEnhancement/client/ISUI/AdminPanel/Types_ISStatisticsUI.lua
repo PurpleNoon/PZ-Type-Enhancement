@@ -7,4 +7,4 @@
 ISStatisticsUI = {}
 
 ---@return self
-function ISStatisticsUI:new() end
+function ISStatisticsUI:new(x, y, player) end

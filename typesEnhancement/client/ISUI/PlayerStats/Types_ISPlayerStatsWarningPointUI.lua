@@ -7,4 +7,4 @@
 ISPlayerStatsWarningPointUI = {}
 
 ---@return self
-function ISPlayerStatsWarningPointUI:new() end
+function ISPlayerStatsWarningPointUI:new(x, y, width, height, target, onclick) end

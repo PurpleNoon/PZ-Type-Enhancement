@@ -7,4 +7,4 @@
 ISServerSavingMessage = {}
 
 ---@return self
-function ISServerSavingMessage:new() end
+function ISServerSavingMessage:new(x, y, width, height, text) end

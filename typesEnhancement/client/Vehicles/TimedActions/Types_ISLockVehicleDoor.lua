@@ -7,4 +7,4 @@
 ISLockVehicleDoor = {}
 
 ---@return self
-function ISLockVehicleDoor:new() end
+function ISLockVehicleDoor:new(character, part) end

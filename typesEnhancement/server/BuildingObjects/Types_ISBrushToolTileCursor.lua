@@ -7,4 +7,4 @@
 ISBrushToolTileCursor = {}
 
 ---@return self
-function ISBrushToolTileCursor:new() end
+function ISBrushToolTileCursor:new(sprite, northSprite, character) end

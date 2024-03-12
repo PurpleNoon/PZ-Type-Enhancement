@@ -7,4 +7,4 @@
 ISChallenge2VariousItemWindow = {}
 
 ---@return self
-function ISChallenge2VariousItemWindow:new() end
+function ISChallenge2VariousItemWindow:new(x, y, width, height, player) end

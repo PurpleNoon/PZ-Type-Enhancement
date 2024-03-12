@@ -7,4 +7,4 @@
 campingTent = {}
 
 ---@return self
-function campingTent:new() end
+function campingTent:new(character, tentSprites) end

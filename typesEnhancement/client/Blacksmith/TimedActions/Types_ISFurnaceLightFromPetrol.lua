@@ -7,4 +7,4 @@
 ISFurnaceLightFromPetrol = {}
 
 ---@return self
-function ISFurnaceLightFromPetrol:new() end
+function ISFurnaceLightFromPetrol:new(character, furnace, lighter, petrol, time) end

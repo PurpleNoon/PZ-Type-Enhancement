@@ -7,4 +7,4 @@
 ISOpenMechanicsUIAction = {}
 
 ---@return self
-function ISOpenMechanicsUIAction:new() end
+function ISOpenMechanicsUIAction:new(character, vehicle, usedHood) end

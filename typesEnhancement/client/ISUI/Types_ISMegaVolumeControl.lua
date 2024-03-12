@@ -7,4 +7,4 @@
 ISMegaVolumeControl = {}
 
 ---@return self
-function ISMegaVolumeControl:new() end
+function ISMegaVolumeControl:new(x, y, width, height, target, targetFunc) end

@@ -7,4 +7,4 @@
 IsoRegionsWindow = {}
 
 ---@return self
-function IsoRegionsWindow:new() end
+function IsoRegionsWindow:new(x, y, width, height) end

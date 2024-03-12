@@ -7,4 +7,4 @@
 ISUI3DModel = {}
 
 ---@return self
-function ISUI3DModel:new() end
+function ISUI3DModel:new(x, y, width, height) end

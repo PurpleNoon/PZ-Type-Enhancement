@@ -7,4 +7,4 @@
 ISGeneratorInfoAction = {}
 
 ---@return self
-function ISGeneratorInfoAction:new() end
+function ISGeneratorInfoAction:new(character, object) end

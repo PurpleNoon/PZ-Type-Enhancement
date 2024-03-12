@@ -7,4 +7,4 @@
 ISPauseModListUI = {}
 
 ---@return self
-function ISPauseModListUI:new() end
+function ISPauseModListUI:new(x, y, width, height) end

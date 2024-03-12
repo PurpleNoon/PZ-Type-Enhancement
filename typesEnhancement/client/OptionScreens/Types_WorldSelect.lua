@@ -7,4 +7,4 @@
 WorldSelect = {}
 
 ---@return self
-function WorldSelect:new() end
+function WorldSelect:new(x, y, width, height) end

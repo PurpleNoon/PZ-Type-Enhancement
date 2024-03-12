@@ -7,4 +7,4 @@
 ISPlayerStatsUI = {}
 
 ---@return self
-function ISPlayerStatsUI:new() end
+function ISPlayerStatsUI:new(x, y, width, height, playerChecked, admin) end

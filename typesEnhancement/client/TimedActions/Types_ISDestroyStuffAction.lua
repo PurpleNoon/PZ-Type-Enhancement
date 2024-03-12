@@ -7,4 +7,4 @@
 ISDestroyStuffAction = {}
 
 ---@return self
-function ISDestroyStuffAction:new() end
+function ISDestroyStuffAction:new(character, item, cornerCounter) end

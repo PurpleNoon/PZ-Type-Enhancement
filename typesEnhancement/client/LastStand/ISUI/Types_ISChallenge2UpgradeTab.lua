@@ -7,4 +7,4 @@
 ISChallenge2UpgradeTab = {}
 
 ---@return self
-function ISChallenge2UpgradeTab:new() end
+function ISChallenge2UpgradeTab:new (x, y, width, height, player) end

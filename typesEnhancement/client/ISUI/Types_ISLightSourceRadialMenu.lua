@@ -7,4 +7,4 @@
 ISLightSourceRadialMenu = {}
 
 ---@return self
-function ISLightSourceRadialMenu:new() end
+function ISLightSourceRadialMenu:new(character) end

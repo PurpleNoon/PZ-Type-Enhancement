@@ -7,4 +7,4 @@
 ISActivateGenerator = {}
 
 ---@return self
-function ISActivateGenerator:new() end
+function ISActivateGenerator:new(character, generator, activate, time) end

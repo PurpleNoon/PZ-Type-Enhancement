@@ -7,4 +7,4 @@
 ISFixGenerator = {}
 
 ---@return self
-function ISFixGenerator:new() end
+function ISFixGenerator:new(character, generator, time) end

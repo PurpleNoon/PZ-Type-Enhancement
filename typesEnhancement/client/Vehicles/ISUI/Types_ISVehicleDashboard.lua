@@ -7,4 +7,4 @@
 ISVehicleDashboard = {}
 
 ---@return self
-function ISVehicleDashboard:new() end
+function ISVehicleDashboard:new(playerNum, chr) end

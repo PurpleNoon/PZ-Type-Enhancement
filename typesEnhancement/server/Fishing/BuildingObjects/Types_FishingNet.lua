@@ -7,4 +7,4 @@
 fishingNet = {}
 
 ---@return self
-function fishingNet:new() end
+function fishingNet:new(player) end

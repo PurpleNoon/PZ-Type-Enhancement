@@ -7,4 +7,4 @@
 ISDropItemAction = {}
 
 ---@return self
-function ISDropItemAction:new() end
+function ISDropItemAction:new (character, item, time) end

@@ -7,4 +7,4 @@
 ISDetachItemHotbar = {}
 
 ---@return self
-function ISDetachItemHotbar:new() end
+function ISDetachItemHotbar:new(character, item) end

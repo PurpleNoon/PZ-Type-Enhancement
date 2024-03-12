@@ -7,4 +7,4 @@
 ISConfigHeadlight = {}
 
 ---@return self
-function ISConfigHeadlight:new() end
+function ISConfigHeadlight:new(character, part, dir, time) end

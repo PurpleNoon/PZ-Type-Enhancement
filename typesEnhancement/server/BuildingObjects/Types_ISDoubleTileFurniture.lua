@@ -7,4 +7,4 @@
 ISDoubleTileFurniture = {}
 
 ---@return self
-function ISDoubleTileFurniture:new() end
+function ISDoubleTileFurniture:new(name, sprite1, sprite2, northSprite1, northSprite2) end

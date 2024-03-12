@@ -7,4 +7,4 @@
 ISGradientBar = {}
 
 ---@return self
-function ISGradientBar:new() end
+function ISGradientBar:new (x, y, width, height) end

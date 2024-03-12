@@ -7,4 +7,4 @@
 ISWoodenWall = {}
 
 ---@return self
-function ISWoodenWall:new() end
+function ISWoodenWall:new(sprite, northSprite, corner) end

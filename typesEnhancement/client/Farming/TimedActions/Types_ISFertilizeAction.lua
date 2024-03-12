@@ -7,4 +7,4 @@
 ISFertilizeAction = {}
 
 ---@return self
-function ISFertilizeAction:new() end
+function ISFertilizeAction:new(character, item, plant, time) end

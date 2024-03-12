@@ -7,4 +7,4 @@
 ISApplyBandage = {}
 
 ---@return self
-function ISApplyBandage:new() end
+function ISApplyBandage:new(doctor, otherPlayer, item, bodyPart, doIt) end

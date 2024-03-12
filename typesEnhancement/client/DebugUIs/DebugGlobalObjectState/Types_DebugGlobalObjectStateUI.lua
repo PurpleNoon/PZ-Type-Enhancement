@@ -7,4 +7,4 @@
 DebugGlobalObjectStateUI = {}
 
 ---@return self
-function DebugGlobalObjectStateUI:new() end
+function DebugGlobalObjectStateUI:new(x, y, width, height, gameState) end

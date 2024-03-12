@@ -7,4 +7,4 @@
 ISEmptyRainBarrelAction = {}
 
 ---@return self
-function ISEmptyRainBarrelAction:new() end
+function ISEmptyRainBarrelAction:new(character, object) end

@@ -7,4 +7,4 @@
 ISFireplaceLightFromLiterature = {}
 
 ---@return self
-function ISFireplaceLightFromLiterature:new() end
+function ISFireplaceLightFromLiterature:new(character, item, lighter, fireplace, fuelAmt, time) end

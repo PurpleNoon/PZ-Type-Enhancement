@@ -7,4 +7,4 @@
 RWMMedia = {}
 
 ---@return self
-function RWMMedia:new() end
+function RWMMedia:new (x, y, width, height) end

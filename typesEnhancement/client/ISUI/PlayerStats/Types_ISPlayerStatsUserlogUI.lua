@@ -7,4 +7,4 @@
 ISPlayerStatsUserlogUI = {}
 
 ---@return self
-function ISPlayerStatsUserlogUI:new() end
+function ISPlayerStatsUserlogUI:new(x, y, width, height, target, onclick, player, userlogs) end

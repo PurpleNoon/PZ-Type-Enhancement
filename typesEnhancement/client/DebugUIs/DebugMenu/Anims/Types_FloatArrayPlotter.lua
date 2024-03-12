@@ -7,4 +7,4 @@
 FloatArrayPlotter = {}
 
 ---@return self
-function FloatArrayPlotter:new() end
+function FloatArrayPlotter:new (x, y, width, height, maxPlotPoints) end

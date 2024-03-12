@@ -7,4 +7,4 @@
 ISClimbOverFence = {}
 
 ---@return self
-function ISClimbOverFence:new() end
+function ISClimbOverFence:new(character, item) end

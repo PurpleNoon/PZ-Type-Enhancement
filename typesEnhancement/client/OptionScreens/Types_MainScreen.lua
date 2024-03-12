@@ -7,4 +7,4 @@
 MainScreen = {}
 
 ---@return self
-function MainScreen:new() end
+function MainScreen:new (inGame) end

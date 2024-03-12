@@ -7,4 +7,4 @@
 ISRemoveSheetRope = {}
 
 ---@return self
-function ISRemoveSheetRope:new() end
+function ISRemoveSheetRope:new(character, window) end

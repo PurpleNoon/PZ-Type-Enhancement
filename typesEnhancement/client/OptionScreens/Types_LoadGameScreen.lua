@@ -6,16 +6,10 @@
 ---@field Type 'LoadGameScreen'
 LoadGameScreen = {}
 
----@return self
-function LoadGameScreen:new() end
-
 
 ---@class SaveInfoPanel : ISPanelJoypad
 ---@field Type 'SaveInfoPanel'
 SaveInfoPanel = {}
-
----@return self
-function SaveInfoPanel:new() end
 
 
 ---@class ConfigPanel : ISPanelJoypad
@@ -23,4 +17,4 @@ function SaveInfoPanel:new() end
 ConfigPanel = {}
 
 ---@return self
-function ConfigPanel:new() end
+function LoadGameScreen:new(x, y, width, height) end

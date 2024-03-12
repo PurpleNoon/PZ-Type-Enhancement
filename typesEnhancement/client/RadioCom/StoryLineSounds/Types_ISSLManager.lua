@@ -7,4 +7,4 @@
 ISSLManager = {}
 
 ---@return self
-function ISSLManager:new() end
+function ISSLManager:new (x, y, width, height) end

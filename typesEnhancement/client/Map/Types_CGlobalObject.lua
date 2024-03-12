@@ -7,4 +7,4 @@
 CGlobalObject = {}
 
 ---@return self
-function CGlobalObject:new() end
+function CGlobalObject:new(luaSystem, globalObject) end

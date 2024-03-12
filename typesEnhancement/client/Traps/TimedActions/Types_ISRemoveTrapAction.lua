@@ -7,4 +7,4 @@
 ISRemoveTrapAction = {}
 
 ---@return self
-function ISRemoveTrapAction:new() end
+function ISRemoveTrapAction:new(character, trap, time) end

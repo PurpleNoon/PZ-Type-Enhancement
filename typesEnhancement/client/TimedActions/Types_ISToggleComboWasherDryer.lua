@@ -7,4 +7,4 @@
 ISToggleComboWasherDryer = {}
 
 ---@return self
-function ISToggleComboWasherDryer:new() end
+function ISToggleComboWasherDryer:new(character, object) end

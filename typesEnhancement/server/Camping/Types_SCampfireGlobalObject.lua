@@ -7,4 +7,4 @@
 SCampfireGlobalObject = {}
 
 ---@return self
-function SCampfireGlobalObject:new() end
+function SCampfireGlobalObject:new(luaSystem, globalObject) end

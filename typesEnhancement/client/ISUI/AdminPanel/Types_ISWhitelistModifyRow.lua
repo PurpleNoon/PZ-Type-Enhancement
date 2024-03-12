@@ -7,4 +7,4 @@
 ISWhitelistModifyRow = {}
 
 ---@return self
-function ISWhitelistModifyRow:new() end
+function ISWhitelistModifyRow:new (x, y, width, height, view) end

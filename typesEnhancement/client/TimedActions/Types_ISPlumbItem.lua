@@ -7,4 +7,4 @@
 ISPlumbItem = {}
 
 ---@return self
-function ISPlumbItem:new() end
+function ISPlumbItem:new(character, itemToPipe, wrench, time) end

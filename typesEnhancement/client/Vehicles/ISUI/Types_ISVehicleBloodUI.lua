@@ -7,4 +7,4 @@
 ISVehicleBloodUI = {}
 
 ---@return self
-function ISVehicleBloodUI:new() end
+function ISVehicleBloodUI:new(playerObj) end

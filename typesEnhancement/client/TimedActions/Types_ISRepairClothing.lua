@@ -7,4 +7,4 @@
 ISRepairClothing = {}
 
 ---@return self
-function ISRepairClothing:new() end
+function ISRepairClothing:new(character, clothing, part, fabric, thread, needle) end

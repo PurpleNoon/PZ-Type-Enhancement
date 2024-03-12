@@ -7,4 +7,4 @@
 ISFireplaceAddFuel = {}
 
 ---@return self
-function ISFireplaceAddFuel:new() end
+function ISFireplaceAddFuel:new(character, fireplace, item, fuelAmt, time) end

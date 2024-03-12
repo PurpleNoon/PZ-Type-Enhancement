@@ -7,4 +7,4 @@
 ISUnloadBulletsFromFirearm = {}
 
 ---@return self
-function ISUnloadBulletsFromFirearm:new() end
+function ISUnloadBulletsFromFirearm:new(character, gun) end

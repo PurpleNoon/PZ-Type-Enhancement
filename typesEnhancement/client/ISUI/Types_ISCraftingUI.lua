@@ -7,4 +7,4 @@
 ISCraftingUI = {}
 
 ---@return self
-function ISCraftingUI:new() end
+function ISCraftingUI:new (x, y, width, height, character) end

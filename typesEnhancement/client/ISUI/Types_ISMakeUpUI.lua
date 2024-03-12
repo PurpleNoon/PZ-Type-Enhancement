@@ -7,4 +7,4 @@
 ISMakeUpUI = {}
 
 ---@return self
-function ISMakeUpUI:new() end
+function ISMakeUpUI:new(x, y, item, character) end

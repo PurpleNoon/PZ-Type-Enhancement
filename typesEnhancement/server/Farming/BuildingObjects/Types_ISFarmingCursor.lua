@@ -7,4 +7,4 @@
 ISFarmingCursor = {}
 
 ---@return self
-function ISFarmingCursor:new() end
+function ISFarmingCursor:new(character) end

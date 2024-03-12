@@ -7,4 +7,4 @@
 WorldMapEditorMode_Stashes = {}
 
 ---@return self
-function WorldMapEditorMode_Stashes:new() end
+function WorldMapEditorMode_Stashes:new(editor) end

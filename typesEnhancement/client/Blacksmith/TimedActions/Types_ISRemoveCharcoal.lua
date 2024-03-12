@@ -7,4 +7,4 @@
 ISRemoveCharcoal = {}
 
 ---@return self
-function ISRemoveCharcoal:new() end
+function ISRemoveCharcoal:new(character, metalDrum) end

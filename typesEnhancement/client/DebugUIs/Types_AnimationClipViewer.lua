@@ -6,32 +6,20 @@
 ---@field Type 'AnimationClipViewer'
 AnimationClipViewer = {}
 
----@return self
-function AnimationClipViewer:new() end
-
 
 ---@class AnimationClipViewer_ListBox : ISScrollingListBox
 ---@field Type 'AnimationClipViewer_ListBox'
 AnimationClipViewer_ListBox = {}
-
----@return self
-function AnimationClipViewer_ListBox:new() end
 
 
 ---@class AnimationClipViewer_OptionsPanel : ISPanel
 ---@field Type 'AnimationClipViewer_OptionsPanel'
 AnimationClipViewer_OptionsPanel = {}
 
----@return self
-function AnimationClipViewer_OptionsPanel:new() end
-
 
 ---@class AnimationClipViewer_Scene : ISUI3DScene
 ---@field Type 'AnimationClipViewer_Scene'
 AnimationClipViewer_Scene = {}
-
----@return self
-function AnimationClipViewer_Scene:new() end
 
 
 ---@class AnimationClipViewer_Timeline : ISPanel
@@ -39,4 +27,16 @@ function AnimationClipViewer_Scene:new() end
 AnimationClipViewer_Timeline = {}
 
 ---@return self
-function AnimationClipViewer_Timeline:new() end
+function ListBox:new(x, y, width, height) end
+
+---@return self
+function OptionsPanel:new(x, y, width, height) end
+
+---@return self
+function Scene:new(x, y, width, height) end
+
+---@return self
+function Timeline:new(x, y, width, height) end
+
+---@return self
+function AnimationClipViewer:new(x, y, width, height) end

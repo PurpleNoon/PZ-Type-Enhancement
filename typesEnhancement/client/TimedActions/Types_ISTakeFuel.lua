@@ -7,4 +7,4 @@
 ISTakeFuel = {}
 
 ---@return self
-function ISTakeFuel:new() end
+function ISTakeFuel:new(character, fuelStation, petrolCan, time) end

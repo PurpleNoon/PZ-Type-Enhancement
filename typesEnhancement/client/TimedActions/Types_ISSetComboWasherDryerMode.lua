@@ -7,4 +7,4 @@
 ISSetComboWasherDryerMode = {}
 
 ---@return self
-function ISSetComboWasherDryerMode:new() end
+function ISSetComboWasherDryerMode:new(character, object, mode) end

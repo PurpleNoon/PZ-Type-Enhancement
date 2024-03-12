@@ -7,4 +7,4 @@
 ISGrabItemAction = {}
 
 ---@return self
-function ISGrabItemAction:new() end
+function ISGrabItemAction:new (character, item, time) end

@@ -7,4 +7,4 @@
 ISClothingExtraAction = {}
 
 ---@return self
-function ISClothingExtraAction:new() end
+function ISClothingExtraAction:new(character, item, extra) end

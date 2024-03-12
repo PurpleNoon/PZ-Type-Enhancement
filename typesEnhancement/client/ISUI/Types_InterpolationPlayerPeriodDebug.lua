@@ -7,4 +7,4 @@
 InterpolationPlayerPeriodDebug = {}
 
 ---@return self
-function InterpolationPlayerPeriodDebug:new() end
+function InterpolationPlayerPeriodDebug:new (x, y, width, height, player) end

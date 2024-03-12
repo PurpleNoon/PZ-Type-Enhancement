@@ -7,4 +7,4 @@
 ValuePlotter = {}
 
 ---@return self
-function ValuePlotter:new() end
+function ValuePlotter:new (x, y, width, height, maxPlotPoints) end

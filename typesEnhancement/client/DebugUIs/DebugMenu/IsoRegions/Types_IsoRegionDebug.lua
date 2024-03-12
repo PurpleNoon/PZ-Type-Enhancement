@@ -7,4 +7,4 @@
 IsoRegionDebug = {}
 
 ---@return self
-function IsoRegionDebug:new() end
+function IsoRegionDebug:new (x, y, width, height, player) end

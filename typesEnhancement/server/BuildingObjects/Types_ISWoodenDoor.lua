@@ -7,4 +7,4 @@
 ISWoodenDoor = {}
 
 ---@return self
-function ISWoodenDoor:new() end
+function ISWoodenDoor:new(sprite, northSprite, openSprite, openNorthSprite) end

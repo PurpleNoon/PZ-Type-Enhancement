@@ -7,4 +7,4 @@
 WorldMapEditorMode_DataFiles = {}
 
 ---@return self
-function WorldMapEditorMode_DataFiles:new() end
+function WorldMapEditorMode_DataFiles:new(editor) end

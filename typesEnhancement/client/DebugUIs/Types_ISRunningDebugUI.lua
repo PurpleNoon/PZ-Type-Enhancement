@@ -7,4 +7,4 @@
 ISRunningDebugUI = {}
 
 ---@return self
-function ISRunningDebugUI:new() end
+function ISRunningDebugUI:new(x, y, character) end

@@ -7,4 +7,4 @@
 RWMVolume = {}
 
 ---@return self
-function RWMVolume:new() end
+function RWMVolume:new (x, y, width, height) end

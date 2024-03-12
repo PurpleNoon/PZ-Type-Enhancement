@@ -7,4 +7,4 @@
 TeamPicker = {}
 
 ---@return self
-function TeamPicker:new() end
+function TeamPicker:new (x, y, width, height, headerText, except, scriptOnOk, leaderInstance) end

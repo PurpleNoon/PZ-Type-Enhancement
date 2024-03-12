@@ -7,4 +7,4 @@
 ISOpenCloseWindow = {}
 
 ---@return self
-function ISOpenCloseWindow:new() end
+function ISOpenCloseWindow:new(character, item, time) end

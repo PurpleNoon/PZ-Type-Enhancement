@@ -7,4 +7,4 @@
 ISLcdBar = {}
 
 ---@return self
-function ISLcdBar:new() end
+function ISLcdBar:new (x, y, charWidth) end

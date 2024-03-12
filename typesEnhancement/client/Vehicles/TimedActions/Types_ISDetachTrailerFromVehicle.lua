@@ -7,4 +7,4 @@
 ISDetachTrailerFromVehicle = {}
 
 ---@return self
-function ISDetachTrailerFromVehicle:new() end
+function ISDetachTrailerFromVehicle:new(character, vehicle, attachment) end

@@ -7,4 +7,4 @@
 ISSafehouseAddPlayerUI = {}
 
 ---@return self
-function ISSafehouseAddPlayerUI:new() end
+function ISSafehouseAddPlayerUI:new(x, y, width, height, safehouse, player) end

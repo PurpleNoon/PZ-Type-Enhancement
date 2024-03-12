@@ -7,4 +7,4 @@
 ISRadioAction = {}
 
 ---@return self
-function ISRadioAction:new() end
+function ISRadioAction:new(mode, character, device, secondaryItem) end

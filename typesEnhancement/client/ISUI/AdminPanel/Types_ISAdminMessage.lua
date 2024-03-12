@@ -7,4 +7,4 @@
 ISAdminMessage = {}
 
 ---@return self
-function ISAdminMessage:new() end
+function ISAdminMessage:new(x, y, width, height, text, px,py,pz) end

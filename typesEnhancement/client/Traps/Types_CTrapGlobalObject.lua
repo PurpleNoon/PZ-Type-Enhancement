@@ -7,4 +7,4 @@
 CTrapGlobalObject = {}
 
 ---@return self
-function CTrapGlobalObject:new() end
+function CTrapGlobalObject:new(luaSystem, globalObject) end

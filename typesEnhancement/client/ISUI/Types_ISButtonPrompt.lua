@@ -7,4 +7,4 @@
 ISButtonPrompt = {}
 
 ---@return self
-function ISButtonPrompt:new() end
+function ISButtonPrompt:new (player) end

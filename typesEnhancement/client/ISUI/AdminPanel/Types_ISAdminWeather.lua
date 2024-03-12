@@ -7,4 +7,4 @@
 ISAdminWeather = {}
 
 ---@return self
-function ISAdminWeather:new() end
+function ISAdminWeather:new(x, y, width, height, title) end

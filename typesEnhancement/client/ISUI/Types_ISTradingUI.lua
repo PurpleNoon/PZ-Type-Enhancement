@@ -7,4 +7,4 @@
 ISTradingUI = {}
 
 ---@return self
-function ISTradingUI:new() end
+function ISTradingUI:new(x, y, width, height, player, otherPlayer) end

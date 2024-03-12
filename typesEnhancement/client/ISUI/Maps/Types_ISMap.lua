@@ -6,13 +6,13 @@
 ---@field Type 'ISMap'
 ISMap = {}
 
----@return self
-function ISMap:new() end
-
 
 ---@class ISMapWrapper : ISCollapsableWindow
 ---@field Type 'ISMapWrapper'
 ISMapWrapper = {}
 
 ---@return self
-function ISMapWrapper:new() end
+function ISMapWrapper:new(x, y, width, height) end
+
+---@return self
+function ISMap:new(x, y, width, height, map, player) end

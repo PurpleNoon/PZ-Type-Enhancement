@@ -7,4 +7,4 @@
 ISEjectMagazine = {}
 
 ---@return self
-function ISEjectMagazine:new() end
+function ISEjectMagazine:new(character, gun) end

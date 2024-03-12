@@ -7,4 +7,4 @@
 ISToggleStoveAction = {}
 
 ---@return self
-function ISToggleStoveAction:new() end
+function ISToggleStoveAction:new(character, object) end

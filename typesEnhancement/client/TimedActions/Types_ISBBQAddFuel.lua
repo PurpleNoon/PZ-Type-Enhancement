@@ -7,4 +7,4 @@
 ISBBQAddFuel = {}
 
 ---@return self
-function ISBBQAddFuel:new() end
+function ISBBQAddFuel:new(character, fireplace, item, fuelAmt, time) end

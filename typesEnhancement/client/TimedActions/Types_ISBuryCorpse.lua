@@ -7,4 +7,4 @@
 ISBuryCorpse = {}
 
 ---@return self
-function ISBuryCorpse:new() end
+function ISBuryCorpse:new(character, graves, time, shovel) end

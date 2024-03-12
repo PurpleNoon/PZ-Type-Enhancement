@@ -6,13 +6,13 @@
 ---@field Type 'ISPacketCounts'
 ISPacketCounts = {}
 
----@return self
-function ISPacketCounts:new() end
-
 
 ---@class ISPacketCountsList : ISPanel
 ---@field Type 'ISPacketCountsList'
 ISPacketCountsList = {}
 
 ---@return self
-function ISPacketCountsList:new() end
+function ISPacketCountsList:new(x, y, width, height) end
+
+---@return self
+function ISPacketCounts:new(x, y, width, height) end

@@ -7,4 +7,7 @@
 ISRemoveGlass = {}
 
 ---@return self
-function ISRemoveGlass:new() end
+function ISRemoveGlass:new(doctor, otherPlayer, bodyPart) end
+
+---@return self
+function ISRemoveGlass:new(doctor, otherPlayer, bodyPart, hands) end

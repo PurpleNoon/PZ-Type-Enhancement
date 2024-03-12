@@ -7,4 +7,4 @@
 ISSpinBox = {}
 
 ---@return self
-function ISSpinBox:new() end
+function ISSpinBox:new(x, y, width, height, target, targetFunc) end

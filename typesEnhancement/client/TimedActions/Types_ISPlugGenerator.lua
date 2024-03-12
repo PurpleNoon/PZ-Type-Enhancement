@@ -7,4 +7,4 @@
 ISPlugGenerator = {}
 
 ---@return self
-function ISPlugGenerator:new() end
+function ISPlugGenerator:new(character, generator, plug, time) end

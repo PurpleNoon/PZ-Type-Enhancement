@@ -7,4 +7,4 @@
 ISWalkToCursor = {}
 
 ---@return self
-function ISWalkToCursor:new() end
+function ISWalkToCursor:new(sprite, northSprite, character) end

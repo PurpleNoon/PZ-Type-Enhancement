@@ -7,4 +7,4 @@
 ISAttachedItemsUI = {}
 
 ---@return self
-function ISAttachedItemsUI:new() end
+function ISAttachedItemsUI:new(x, y, character) end

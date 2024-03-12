@@ -7,4 +7,4 @@
 ISPlasterAction = {}
 
 ---@return self
-function ISPlasterAction:new() end
+function ISPlasterAction:new(character, thumpable, plasterBucket, time) end

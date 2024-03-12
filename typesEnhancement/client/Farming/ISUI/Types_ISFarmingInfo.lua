@@ -7,4 +7,4 @@
 ISFarmingInfo = {}
 
 ---@return self
-function ISFarmingInfo:new() end
+function ISFarmingInfo:new (x, y, width, height, character, plant) end

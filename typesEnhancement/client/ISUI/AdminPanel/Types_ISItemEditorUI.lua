@@ -7,4 +7,4 @@
 ISItemEditorUI = {}
 
 ---@return self
-function ISItemEditorUI:new() end
+function ISItemEditorUI:new(x, y, width, height, admin, item) end

@@ -6,16 +6,10 @@
 ---@field Type 'ISMiniMapOuter'
 ISMiniMapOuter = {}
 
----@return self
-function ISMiniMapOuter:new() end
-
 
 ---@class ISMiniMapInner : ISUIElement
 ---@field Type 'ISMiniMapInner'
 ISMiniMapInner = {}
-
----@return self
-function ISMiniMapInner:new() end
 
 
 ---@class ISMiniMapTitleBar : ISPanel
@@ -23,4 +17,10 @@ function ISMiniMapInner:new() end
 ISMiniMapTitleBar = {}
 
 ---@return self
-function ISMiniMapTitleBar:new() end
+function ISMiniMapInner:new(x, y, width, height, playerNum) end
+
+---@return self
+function ISMiniMapTitleBar:new(miniMap) end
+
+---@return self
+function ISMiniMapOuter:new(x, y, width, height, playerNum) end

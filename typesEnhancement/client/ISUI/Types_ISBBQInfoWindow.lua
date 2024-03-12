@@ -7,4 +7,4 @@
 ISBBQInfoWindow = {}
 
 ---@return self
-function ISBBQInfoWindow:new() end
+function ISBBQInfoWindow:new(x, y, character, bbq) end

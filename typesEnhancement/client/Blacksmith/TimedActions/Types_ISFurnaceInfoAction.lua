@@ -7,4 +7,4 @@
 ISFurnaceInfoAction = {}
 
 ---@return self
-function ISFurnaceInfoAction:new() end
+function ISFurnaceInfoAction:new(character, object) end

@@ -7,4 +7,4 @@
 ISMoveableCursor = {}
 
 ---@return self
-function ISMoveableCursor:new() end
+function ISMoveableCursor:new(_character) end

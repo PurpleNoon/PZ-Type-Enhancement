@@ -7,4 +7,4 @@
 TeamOverview = {}
 
 ---@return self
-function TeamOverview:new() end
+function TeamOverview:new (x, y, width, height, leaderInstance) end

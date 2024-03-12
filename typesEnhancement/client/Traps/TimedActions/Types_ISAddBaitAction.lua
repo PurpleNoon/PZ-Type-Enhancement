@@ -7,4 +7,4 @@
 ISAddBaitAction = {}
 
 ---@return self
-function ISAddBaitAction:new() end
+function ISAddBaitAction:new(character, bait, trap, time) end

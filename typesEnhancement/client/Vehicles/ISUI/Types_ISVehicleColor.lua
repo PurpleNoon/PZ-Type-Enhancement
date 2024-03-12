@@ -7,4 +7,4 @@
 ISVehicleHSV = {}
 
 ---@return self
-function ISVehicleHSV:new() end
+function ISVehicleHSV:new(playerObj) end

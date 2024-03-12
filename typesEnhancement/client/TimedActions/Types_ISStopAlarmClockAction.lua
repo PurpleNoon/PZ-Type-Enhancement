@@ -7,4 +7,4 @@
 ISStopAlarmClockAction = {}
 
 ---@return self
-function ISStopAlarmClockAction:new() end
+function ISStopAlarmClockAction:new(character, alarm, time) end

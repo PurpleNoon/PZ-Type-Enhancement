@@ -7,4 +7,4 @@
 ModOrderUI = {}
 
 ---@return self
-function ModOrderUI:new() end
+function ModOrderUI:new(x, y, width, height) end

@@ -7,4 +7,4 @@
 ISCampingInfoWindow = {}
 
 ---@return self
-function ISCampingInfoWindow:new() end
+function ISCampingInfoWindow:new(x, y, character, campfireObject, campfireTable) end

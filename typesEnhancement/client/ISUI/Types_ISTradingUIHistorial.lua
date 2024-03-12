@@ -7,4 +7,4 @@
 ISTradingUIHistorical = {}
 
 ---@return self
-function ISTradingUIHistorical:new() end
+function ISTradingUIHistorical:new(x, y, width, height, list, otherPlayer) end

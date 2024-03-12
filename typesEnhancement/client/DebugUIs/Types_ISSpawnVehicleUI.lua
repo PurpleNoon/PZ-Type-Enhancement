@@ -7,4 +7,4 @@
 ISSpawnVehicleUI = {}
 
 ---@return self
-function ISSpawnVehicleUI:new() end
+function ISSpawnVehicleUI:new(x, y, width, height, player) end

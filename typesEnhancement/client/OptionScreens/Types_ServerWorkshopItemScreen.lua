@@ -6,13 +6,13 @@
 ---@field Type 'ServerWorkshopItemScreen'
 ServerWorkshopItemScreen = {}
 
----@return self
-function ServerWorkshopItemScreen:new() end
-
 
 ---@class WorkshopItemList : ISScrollingListBox
 ---@field Type 'WorkshopItemList'
 WorkshopItemList = {}
 
 ---@return self
-function WorkshopItemList:new() end
+function WorkshopItemList:new(x, y, width, height) end
+
+---@return self
+function ServerWorkshopItemScreen:new(x, y, width, height) end

@@ -7,4 +7,4 @@
 ISBBQLightFromLiterature = {}
 
 ---@return self
-function ISBBQLightFromLiterature:new() end
+function ISBBQLightFromLiterature:new(character, item, lighter, bbq, time) end

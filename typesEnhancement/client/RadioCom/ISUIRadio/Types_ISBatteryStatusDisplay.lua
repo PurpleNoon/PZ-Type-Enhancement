@@ -7,4 +7,4 @@
 ISBatteryStatusDisplay = {}
 
 ---@return self
-function ISBatteryStatusDisplay:new() end
+function ISBatteryStatusDisplay:new (x, y, width, height, addAlertLed) end

@@ -7,4 +7,4 @@
 ISFishingUI = {}
 
 ---@return self
-function ISFishingUI:new() end
+function ISFishingUI:new(x, y, width, height, player, clickedSquare) end

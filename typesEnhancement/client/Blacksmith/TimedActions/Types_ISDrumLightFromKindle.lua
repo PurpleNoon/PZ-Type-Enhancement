@@ -7,4 +7,4 @@
 ISDrumLightFromKindle = {}
 
 ---@return self
-function ISDrumLightFromKindle:new() end
+function ISDrumLightFromKindle:new(character, plank, stickOrBranch, metalDrum, time) end

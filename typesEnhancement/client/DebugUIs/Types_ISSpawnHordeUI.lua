@@ -7,4 +7,4 @@
 ISSpawnHordeUI = {}
 
 ---@return self
-function ISSpawnHordeUI:new() end
+function ISSpawnHordeUI:new(x, y, character, square) end

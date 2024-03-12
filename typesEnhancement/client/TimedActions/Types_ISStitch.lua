@@ -7,4 +7,4 @@
 ISStitch = {}
 
 ---@return self
-function ISStitch:new() end
+function ISStitch:new(doctor, otherPlayer, item, bodyPart, doIt) end

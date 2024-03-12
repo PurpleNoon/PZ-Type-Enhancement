@@ -7,4 +7,4 @@
 BrushToolManager = {}
 
 ---@return self
-function BrushToolManager:new() end
+function BrushToolManager:new(x, y, width, height, character) end

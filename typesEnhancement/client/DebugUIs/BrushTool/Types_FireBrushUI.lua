@@ -7,4 +7,4 @@
 FireBrushUI = {}
 
 ---@return self
-function FireBrushUI:new() end
+function FireBrushUI:new(x, y, width, height, player) end

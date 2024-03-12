@@ -7,4 +7,4 @@
 CoopMapSpawnSelect = {}
 
 ---@return self
-function CoopMapSpawnSelect:new() end
+function CoopMapSpawnSelect:new(x, y, width, height) end

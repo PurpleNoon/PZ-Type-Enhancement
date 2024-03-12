@@ -7,4 +7,4 @@
 ISServerOptions = {}
 
 ---@return self
-function ISServerOptions:new() end
+function ISServerOptions:new(x, y, width, height, player) end

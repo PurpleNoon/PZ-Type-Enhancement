@@ -7,4 +7,4 @@
 ISBurnCorpseAction = {}
 
 ---@return self
-function ISBurnCorpseAction:new() end
+function ISBurnCorpseAction:new (character, corpse, time) end

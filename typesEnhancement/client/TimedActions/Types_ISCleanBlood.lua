@@ -7,4 +7,4 @@
 ISCleanBlood = {}
 
 ---@return self
-function ISCleanBlood:new() end
+function ISCleanBlood:new(character, square, time) end

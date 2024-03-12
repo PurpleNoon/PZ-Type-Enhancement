@@ -7,4 +7,4 @@
 ISUI3DScene = {}
 
 ---@return self
-function ISUI3DScene:new() end
+function ISUI3DScene:new(x, y, width, height) end

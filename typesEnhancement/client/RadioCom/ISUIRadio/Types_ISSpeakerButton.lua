@@ -7,4 +7,4 @@
 ISSpeakerButton = {}
 
 ---@return self
-function ISSpeakerButton:new() end
+function ISSpeakerButton:new (x, y, width, height, onclick, onclickTarget) end

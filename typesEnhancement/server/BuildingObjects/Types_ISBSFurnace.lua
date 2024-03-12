@@ -7,4 +7,4 @@
 ISBSFurnace = {}
 
 ---@return self
-function ISBSFurnace:new() end
+function ISBSFurnace:new(name, sprite, litSprite) end

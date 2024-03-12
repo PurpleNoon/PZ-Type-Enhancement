@@ -7,4 +7,4 @@
 ISPlowAction = {}
 
 ---@return self
-function ISPlowAction:new() end
+function ISPlowAction:new (character, square, item, time) end

@@ -7,4 +7,4 @@
 ISSLFrame = {}
 
 ---@return self
-function ISSLFrame:new() end
+function ISSLFrame:new (x, y, width, height) end

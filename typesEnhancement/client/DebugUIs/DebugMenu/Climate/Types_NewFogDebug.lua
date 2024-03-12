@@ -7,4 +7,4 @@
 NewFogDebug = {}
 
 ---@return self
-function NewFogDebug:new() end
+function NewFogDebug:new(x, y, width, height, doStencil) end

@@ -7,4 +7,4 @@
 ISAdminTicketsUI = {}
 
 ---@return self
-function ISAdminTicketsUI:new() end
+function ISAdminTicketsUI:new(x, y, width, height, player) end

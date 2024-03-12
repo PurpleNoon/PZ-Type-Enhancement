@@ -7,4 +7,4 @@
 ISFireplaceInfoAction = {}
 
 ---@return self
-function ISFireplaceInfoAction:new() end
+function ISFireplaceInfoAction:new(character, fireplace) end

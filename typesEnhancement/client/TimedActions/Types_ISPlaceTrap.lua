@@ -7,4 +7,4 @@
 ISPlaceTrap = {}
 
 ---@return self
-function ISPlaceTrap:new() end
+function ISPlaceTrap:new(character, weapon, time) end

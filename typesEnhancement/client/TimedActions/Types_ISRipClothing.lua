@@ -7,4 +7,4 @@
 ISRipClothing = {}
 
 ---@return self
-function ISRipClothing:new() end
+function ISRipClothing:new(character, item, isSheetRope) end

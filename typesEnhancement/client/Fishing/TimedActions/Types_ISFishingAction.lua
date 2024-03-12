@@ -7,4 +7,4 @@
 ISFishingAction = {}
 
 ---@return self
-function ISFishingAction:new() end
+function ISFishingAction:new(character, tile, rod, lure, fishingUI) end

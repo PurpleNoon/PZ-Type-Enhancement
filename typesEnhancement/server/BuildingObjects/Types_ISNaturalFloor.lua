@@ -7,4 +7,4 @@
 ISNaturalFloor = {}
 
 ---@return self
-function ISNaturalFloor:new() end
+function ISNaturalFloor:new(sprite, northSprite, item, character) end

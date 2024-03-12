@@ -7,4 +7,4 @@
 DebugChunkState_VehicleStoryPanel = {}
 
 ---@return self
-function DebugChunkState_VehicleStoryPanel:new() end
+function VehicleStoryPanel:new(x, y, width, height, debugChunkState) end

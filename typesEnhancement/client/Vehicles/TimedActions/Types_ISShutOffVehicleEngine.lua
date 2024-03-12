@@ -7,4 +7,4 @@
 ISShutOffVehicleEngine = {}
 
 ---@return self
-function ISShutOffVehicleEngine:new() end
+function ISShutOffVehicleEngine:new(character) end

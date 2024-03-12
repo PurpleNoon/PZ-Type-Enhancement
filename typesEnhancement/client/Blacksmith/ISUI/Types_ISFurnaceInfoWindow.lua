@@ -7,4 +7,4 @@
 ISFurnaceInfoWindow = {}
 
 ---@return self
-function ISFurnaceInfoWindow:new() end
+function ISFurnaceInfoWindow:new(x, y, character, object) end

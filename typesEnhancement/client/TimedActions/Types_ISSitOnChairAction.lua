@@ -7,4 +7,4 @@
 ISSitOnChairAction = {}
 
 ---@return self
-function ISSitOnChairAction:new() end
+function ISSitOnChairAction:new(character, item) end

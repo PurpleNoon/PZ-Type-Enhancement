@@ -7,4 +7,4 @@
 ISConnectCarBatteryToChargerAction = {}
 
 ---@return self
-function ISConnectCarBatteryToChargerAction:new() end
+function ISConnectCarBatteryToChargerAction:new(character, charger, battery, time) end

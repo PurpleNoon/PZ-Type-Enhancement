@@ -7,4 +7,4 @@
 ISGeneralDebug = {}
 
 ---@return self
-function ISGeneralDebug:new() end
+function ISGeneralDebug:new(x, y, width, height, title) end

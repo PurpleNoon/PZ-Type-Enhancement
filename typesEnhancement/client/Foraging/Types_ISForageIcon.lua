@@ -7,4 +7,4 @@
 ISForageIcon = {}
 
 ---@return self
-function ISForageIcon:new() end
+function ISForageIcon:new(_manager, _forageIcon, _zoneData) end

@@ -6,13 +6,13 @@
 ---@field Type 'MainPanel'
 MainPanel = {}
 
----@return self
-function MainPanel:new() end
-
 
 ---@class ISGameSounds : ISPanelJoypad
 ---@field Type 'ISGameSounds'
 ISGameSounds = {}
 
 ---@return self
-function ISGameSounds:new() end
+function MainPanel:new(x, y, width, height) end
+
+---@return self
+function ISGameSounds:new(x, y, width, height) end

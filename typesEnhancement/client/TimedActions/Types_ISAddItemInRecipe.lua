@@ -7,4 +7,4 @@
 ISAddItemInRecipe = {}
 
 ---@return self
-function ISAddItemInRecipe:new() end
+function ISAddItemInRecipe:new(character, recipe, baseItem, usedItem, time) end

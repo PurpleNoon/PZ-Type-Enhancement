@@ -7,4 +7,4 @@
 ISCraftingCategoryUI = {}
 
 ---@return self
-function ISCraftingCategoryUI:new() end
+function ISCraftingCategoryUI:new (x, y, width, height, craftingUI) end

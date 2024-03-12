@@ -7,4 +7,4 @@
 ISCraftAction = {}
 
 ---@return self
-function ISCraftAction:new() end
+function ISCraftAction:new(character, item, time, recipe, container, containers) end

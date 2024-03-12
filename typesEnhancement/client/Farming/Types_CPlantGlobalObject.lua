@@ -7,4 +7,4 @@
 CPlantGlobalObject = {}
 
 ---@return self
-function CPlantGlobalObject:new() end
+function CPlantGlobalObject:new(luaSystem, globalObject) end

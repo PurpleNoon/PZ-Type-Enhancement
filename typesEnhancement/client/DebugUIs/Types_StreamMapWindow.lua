@@ -7,4 +7,4 @@
 StreamMapWindow = {}
 
 ---@return self
-function StreamMapWindow:new() end
+function StreamMapWindow:new (x, y, width, height) end

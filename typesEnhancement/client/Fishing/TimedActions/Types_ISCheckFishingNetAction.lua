@@ -7,4 +7,4 @@
 ISCheckFishingNetAction = {}
 
 ---@return self
-function ISCheckFishingNetAction:new() end
+function ISCheckFishingNetAction:new(player, trap, hours) end

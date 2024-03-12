@@ -7,4 +7,4 @@
 ISFitnessAction = {}
 
 ---@return self
-function ISFitnessAction:new() end
+function ISFitnessAction:new(character, exercise, timeToExe, fitnessUI, exeData) end

@@ -7,4 +7,4 @@
 ISColorPicker = {}
 
 ---@return self
-function ISColorPicker:new() end
+function ISColorPicker:new(x, y, HSBFactor) end

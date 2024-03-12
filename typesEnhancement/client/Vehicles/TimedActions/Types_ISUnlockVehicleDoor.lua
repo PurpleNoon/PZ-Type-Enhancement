@@ -7,4 +7,4 @@
 ISUnlockVehicleDoor = {}
 
 ---@return self
-function ISUnlockVehicleDoor:new() end
+function ISUnlockVehicleDoor:new(character, part, seat) end

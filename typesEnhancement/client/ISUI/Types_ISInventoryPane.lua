@@ -7,4 +7,7 @@
 ISInventoryPane = {}
 
 ---@return self
-function ISInventoryPane:new() end
+function DraggedItems:new(inventoryPane) end
+
+---@return self
+function ISInventoryPane:new (x, y, width, height, inventory, zoom) end

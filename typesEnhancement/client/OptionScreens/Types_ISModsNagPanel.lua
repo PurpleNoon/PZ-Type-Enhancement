@@ -7,4 +7,4 @@
 ISModsNagPanel = {}
 
 ---@return self
-function ISModsNagPanel:new() end
+function ISModsNagPanel:new(x, y, width, height) end

@@ -7,4 +7,4 @@
 ISLightFromKindle = {}
 
 ---@return self
-function ISLightFromKindle:new() end
+function ISLightFromKindle:new(character, plank, stickOrBranch, campfire, time) end

@@ -7,4 +7,4 @@
 ISRecMediaAction = {}
 
 ---@return self
-function ISRecMediaAction:new() end
+function ISRecMediaAction:new(mode, character, device, secondaryItem) end

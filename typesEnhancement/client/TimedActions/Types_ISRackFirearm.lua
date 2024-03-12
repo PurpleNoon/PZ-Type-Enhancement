@@ -7,4 +7,4 @@
 ISRackFirearm = {}
 
 ---@return self
-function ISRackFirearm:new() end
+function ISRackFirearm:new(character, gun) end

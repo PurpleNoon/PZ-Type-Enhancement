@@ -7,4 +7,4 @@
 CharacterInfoPage = {}
 
 ---@return self
-function CharacterInfoPage:new() end
+function CharacterInfoPage:new (x, y, width, height, desc) end

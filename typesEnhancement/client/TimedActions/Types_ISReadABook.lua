@@ -7,4 +7,4 @@
 ISReadABook = {}
 
 ---@return self
-function ISReadABook:new() end
+function ISReadABook:new(character, item, time) end

@@ -7,4 +7,4 @@
 ISPaintCursor = {}
 
 ---@return self
-function ISPaintCursor:new() end
+function ISPaintCursor:new(character, action, args) end

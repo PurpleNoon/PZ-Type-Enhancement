@@ -7,4 +7,4 @@
 ISUnloadBulletsFromMagazine = {}
 
 ---@return self
-function ISUnloadBulletsFromMagazine:new() end
+function ISUnloadBulletsFromMagazine:new(character, magazine) end

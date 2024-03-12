@@ -7,4 +7,4 @@
 ISLockDoor = {}
 
 ---@return self
-function ISLockDoor:new() end
+function ISLockDoor:new(character, door, lock) end

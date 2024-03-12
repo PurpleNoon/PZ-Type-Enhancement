@@ -7,4 +7,4 @@
 ISContextMenu = {}
 
 ---@return self
-function ISContextMenu:new() end
+function ISContextMenu:new (x, y, width, height, zoom) end

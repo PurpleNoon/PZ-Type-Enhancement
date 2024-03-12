@@ -7,4 +7,4 @@
 ISRemoveCarBatteryFromChargerAction = {}
 
 ---@return self
-function ISRemoveCarBatteryFromChargerAction:new() end
+function ISRemoveCarBatteryFromChargerAction:new(character, charger, time) end

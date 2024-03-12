@@ -7,4 +7,4 @@
 ClimDebuggersPanel = {}
 
 ---@return self
-function ClimDebuggersPanel:new() end
+function ClimDebuggersPanel:new(x, y, width, height, doStencil) end

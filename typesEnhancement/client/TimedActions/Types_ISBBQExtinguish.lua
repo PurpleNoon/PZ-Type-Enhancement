@@ -7,4 +7,4 @@
 ISBBQExtinguish = {}
 
 ---@return self
-function ISBBQExtinguish:new() end
+function ISBBQExtinguish:new (character, bbq, time) end

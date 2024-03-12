@@ -7,4 +7,4 @@
 ISReloadWeaponAction = {}
 
 ---@return self
-function ISReloadWeaponAction:new() end
+function ISReloadWeaponAction:new(character, gun) end

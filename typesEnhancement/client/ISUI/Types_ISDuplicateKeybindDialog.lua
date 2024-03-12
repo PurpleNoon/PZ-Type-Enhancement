@@ -7,4 +7,4 @@
 ISDuplicateKeybindDialog = {}
 
 ---@return self
-function ISDuplicateKeybindDialog:new() end
+function ISDuplicateKeybindDialog:new(key, keybindName, keybind2Name) end

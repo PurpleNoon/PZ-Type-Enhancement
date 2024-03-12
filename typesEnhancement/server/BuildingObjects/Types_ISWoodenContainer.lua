@@ -7,4 +7,4 @@
 ISWoodenContainer = {}
 
 ---@return self
-function ISWoodenContainer:new() end
+function ISWoodenContainer:new(sprite, northSprite) end

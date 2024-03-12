@@ -7,4 +7,4 @@
 ISPutOutFireDrum = {}
 
 ---@return self
-function ISPutOutFireDrum:new() end
+function ISPutOutFireDrum:new(character, metalDrum) end

@@ -7,4 +7,4 @@
 WatchWindow = {}
 
 ---@return self
-function WatchWindow:new() end
+function WatchWindow:new (x, y, width, height) end

@@ -7,4 +7,4 @@
 ISOpenVehicleDoor = {}
 
 ---@return self
-function ISOpenVehicleDoor:new() end
+function ISOpenVehicleDoor:new(character, vehicle, partOrSeat) end

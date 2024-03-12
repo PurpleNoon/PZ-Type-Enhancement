@@ -7,4 +7,4 @@
 ISPlantainCataplasm = {}
 
 ---@return self
-function ISPlantainCataplasm:new() end
+function ISPlantainCataplasm:new(doctor, otherPlayer, item, bodyPart) end

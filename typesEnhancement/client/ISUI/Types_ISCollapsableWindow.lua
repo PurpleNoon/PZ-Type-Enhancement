@@ -7,4 +7,4 @@
 ISCollapsableWindow = {}
 
 ---@return self
-function ISCollapsableWindow:new() end
+function ISCollapsableWindow:new (x, y, width, height) end

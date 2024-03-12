@@ -7,4 +7,4 @@
 ISStorySoundsDebug = {}
 
 ---@return self
-function ISStorySoundsDebug:new() end
+function ISStorySoundsDebug:new (x, y, width, height) end

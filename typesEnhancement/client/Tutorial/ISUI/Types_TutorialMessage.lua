@@ -7,4 +7,4 @@
 TutorialMessage = {}
 
 ---@return self
-function TutorialMessage:new() end
+function TutorialMessage:new (x, y, width, height, clickToSkip, message) end

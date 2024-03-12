@@ -7,4 +7,4 @@
 ISRemovePlantCursor = {}
 
 ---@return self
-function ISRemovePlantCursor:new() end
+function ISRemovePlantCursor:new(character, removeType) end

@@ -7,4 +7,4 @@
 ISToggleClothingWasher = {}
 
 ---@return self
-function ISToggleClothingWasher:new() end
+function ISToggleClothingWasher:new(character, object) end

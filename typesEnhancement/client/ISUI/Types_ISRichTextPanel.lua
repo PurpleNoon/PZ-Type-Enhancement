@@ -7,4 +7,4 @@
 ISRichTextPanel = {}
 
 ---@return self
-function ISRichTextPanel:new() end
+function ISRichTextPanel:new (x, y, width, height) end

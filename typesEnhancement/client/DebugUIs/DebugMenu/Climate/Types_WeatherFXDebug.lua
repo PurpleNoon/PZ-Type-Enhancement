@@ -7,4 +7,4 @@
 WeatherFXDebug = {}
 
 ---@return self
-function WeatherFXDebug:new() end
+function WeatherFXDebug:new (x, y, width, height, player) end

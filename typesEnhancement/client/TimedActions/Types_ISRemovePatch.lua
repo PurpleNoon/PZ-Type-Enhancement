@@ -7,4 +7,4 @@
 ISRemovePatch = {}
 
 ---@return self
-function ISRemovePatch:new() end
+function ISRemovePatch:new(character, clothing, part, needle) end

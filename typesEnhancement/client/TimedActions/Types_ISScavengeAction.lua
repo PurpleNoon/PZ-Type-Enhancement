@@ -7,4 +7,4 @@
 ISScavengeAction = {}
 
 ---@return self
-function ISScavengeAction:new() end
+function ISScavengeAction:new(character, zone, options, scavengeUI) end

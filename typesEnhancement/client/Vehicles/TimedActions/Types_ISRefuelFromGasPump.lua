@@ -7,4 +7,4 @@
 ISRefuelFromGasPump = {}
 
 ---@return self
-function ISRefuelFromGasPump:new() end
+function ISRefuelFromGasPump:new(character, part, fuelStation, time) end

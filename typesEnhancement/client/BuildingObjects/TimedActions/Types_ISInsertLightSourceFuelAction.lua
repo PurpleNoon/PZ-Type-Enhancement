@@ -7,4 +7,4 @@
 ISInsertLightSourceFuelAction = {}
 
 ---@return self
-function ISInsertLightSourceFuelAction:new() end
+function ISInsertLightSourceFuelAction:new(character, lightSource, fuel, time) end

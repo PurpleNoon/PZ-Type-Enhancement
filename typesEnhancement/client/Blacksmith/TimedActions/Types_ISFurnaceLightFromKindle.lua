@@ -7,4 +7,4 @@
 ISFurnaceLightFromKindle = {}
 
 ---@return self
-function ISFurnaceLightFromKindle:new() end
+function ISFurnaceLightFromKindle:new(character, plank, stickOrBranch, furnace, time) end

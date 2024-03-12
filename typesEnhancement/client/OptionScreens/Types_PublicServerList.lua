@@ -7,4 +7,4 @@
 PublicServerList = {}
 
 ---@return self
-function PublicServerList:new() end
+function PublicServerList:new(x, y, width, height) end

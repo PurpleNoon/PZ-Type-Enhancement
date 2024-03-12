@@ -7,4 +7,4 @@
 ISMedicalCheckAction = {}
 
 ---@return self
-function ISMedicalCheckAction:new() end
+function ISMedicalCheckAction:new(character, otherPlayer) end

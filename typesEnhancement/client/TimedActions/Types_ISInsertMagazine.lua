@@ -7,4 +7,4 @@
 ISInsertMagazine = {}
 
 ---@return self
-function ISInsertMagazine:new() end
+function ISInsertMagazine:new(character, gun, magazine) end

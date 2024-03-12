@@ -7,4 +7,4 @@
 RWMChannelTV = {}
 
 ---@return self
-function RWMChannelTV:new() end
+function RWMChannelTV:new (x, y, width, height ) end

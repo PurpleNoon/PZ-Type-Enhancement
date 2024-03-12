@@ -7,4 +7,4 @@
 ISComfreyCataplasm = {}
 
 ---@return self
-function ISComfreyCataplasm:new() end
+function ISComfreyCataplasm:new(doctor, otherPlayer, item, bodyPart) end

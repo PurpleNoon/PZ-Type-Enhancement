@@ -7,4 +7,4 @@
 ISTakeCarBatteryChargerAction = {}
 
 ---@return self
-function ISTakeCarBatteryChargerAction:new() end
+function ISTakeCarBatteryChargerAction:new(character, charger, time) end

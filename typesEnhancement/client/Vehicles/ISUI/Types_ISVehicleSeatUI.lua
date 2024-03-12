@@ -7,4 +7,4 @@
 ISVehicleSeatUI = {}
 
 ---@return self
-function ISVehicleSeatUI:new() end
+function ISVehicleSeatUI:new(x, y, character) end

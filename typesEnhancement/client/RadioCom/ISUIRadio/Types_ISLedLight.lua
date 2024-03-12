@@ -7,4 +7,4 @@
 ISLedLight = {}
 
 ---@return self
-function ISLedLight:new() end
+function ISLedLight:new (x, y, width, height) end

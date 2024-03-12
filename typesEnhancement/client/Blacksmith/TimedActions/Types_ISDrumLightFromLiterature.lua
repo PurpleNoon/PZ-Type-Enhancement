@@ -7,4 +7,4 @@
 ISDrumLightFromLiterature = {}
 
 ---@return self
-function ISDrumLightFromLiterature:new() end
+function ISDrumLightFromLiterature:new(character, item, lighter, metalDrum, fuelAmt, time) end

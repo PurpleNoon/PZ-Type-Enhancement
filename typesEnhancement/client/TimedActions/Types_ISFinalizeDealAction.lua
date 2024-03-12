@@ -7,4 +7,4 @@
 ISFinalizeDealAction = {}
 
 ---@return self
-function ISFinalizeDealAction:new() end
+function ISFinalizeDealAction:new(player, otherPlayer, itemsToGive, itemsToReceive, time) end

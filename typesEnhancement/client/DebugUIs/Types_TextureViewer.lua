@@ -7,4 +7,4 @@
 TextureWindow = {}
 
 ---@return self
-function TextureWindow:new() end
+function TextureWindow:new (x, y, width, height, tex) end

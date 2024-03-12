@@ -7,4 +7,4 @@
 WorldMapEditorLocationControl = {}
 
 ---@return self
-function WorldMapEditorLocationControl:new() end
+function WorldMapEditorLocationControl:new(editor) end

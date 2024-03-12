@@ -7,4 +7,4 @@
 ISClimbSheetRopeAction = {}
 
 ---@return self
-function ISClimbSheetRopeAction:new() end
+function ISClimbSheetRopeAction:new(character, down) end

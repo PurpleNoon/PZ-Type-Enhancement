@@ -7,4 +7,4 @@
 StashDebug = {}
 
 ---@return self
-function StashDebug:new() end
+function StashDebug:new(x, y, width, height) end

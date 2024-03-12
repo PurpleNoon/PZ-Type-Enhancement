@@ -7,4 +7,4 @@
 ISAddCoalInFurnace = {}
 
 ---@return self
-function ISAddCoalInFurnace:new() end
+function ISAddCoalInFurnace:new(furnace, coal, character) end

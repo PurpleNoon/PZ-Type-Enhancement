@@ -7,4 +7,4 @@
 ISServerOptionsChange = {}
 
 ---@return self
-function ISServerOptionsChange:new() end
+function ISServerOptionsChange:new(x, y, width, height, target, onclick, option) end

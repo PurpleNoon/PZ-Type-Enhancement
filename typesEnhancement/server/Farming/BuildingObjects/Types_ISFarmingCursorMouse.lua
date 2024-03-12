@@ -7,4 +7,4 @@
 ISFarmingCursorMouse = {}
 
 ---@return self
-function ISFarmingCursorMouse:new() end
+function ISFarmingCursorMouse:new(character, onSquareSelected, isValid) end

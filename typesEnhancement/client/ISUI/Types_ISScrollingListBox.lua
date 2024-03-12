@@ -7,4 +7,4 @@
 ISScrollingListBox = {}
 
 ---@return self
-function ISScrollingListBox:new() end
+function ISScrollingListBox:new (x, y, width, height) end

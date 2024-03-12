@@ -7,4 +7,4 @@
 ISDumpWaterAction = {}
 
 ---@return self
-function ISDumpWaterAction:new() end
+function ISDumpWaterAction:new (character, item) end

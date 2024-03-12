@@ -7,4 +7,4 @@
 ISUpgradeWeapon = {}
 
 ---@return self
-function ISUpgradeWeapon:new() end
+function ISUpgradeWeapon:new(character, weapon, part, time) end

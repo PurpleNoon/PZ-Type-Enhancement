@@ -7,4 +7,4 @@
 ISHotwireVehicle = {}
 
 ---@return self
-function ISHotwireVehicle:new() end
+function ISHotwireVehicle:new(character) end

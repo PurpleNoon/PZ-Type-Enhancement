@@ -7,4 +7,4 @@
 LuaDebugOutput = {}
 
 ---@return self
-function LuaDebugOutput:new() end
+function LuaDebugOutput:new (x, y, width, height) end

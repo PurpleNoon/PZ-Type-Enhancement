@@ -7,4 +7,4 @@
 ISExitVehicle = {}
 
 ---@return self
-function ISExitVehicle:new() end
+function ISExitVehicle:new(character) end

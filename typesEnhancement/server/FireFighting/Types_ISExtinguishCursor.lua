@@ -7,4 +7,4 @@
 ISExtinguishCursor = {}
 
 ---@return self
-function ISExtinguishCursor:new() end
+function ISExtinguishCursor:new(character, extinguisher) end

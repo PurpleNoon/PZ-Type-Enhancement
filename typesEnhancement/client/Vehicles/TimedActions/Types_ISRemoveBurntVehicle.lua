@@ -7,4 +7,4 @@
 ISRemoveBurntVehicle = {}
 
 ---@return self
-function ISRemoveBurntVehicle:new() end
+function ISRemoveBurntVehicle:new(character, vehicle) end

@@ -7,4 +7,4 @@
 ISRadialMenu = {}
 
 ---@return self
-function ISRadialMenu:new() end
+function ISRadialMenu:new(x, y, innerRadius, outerRadius, playerNum) end

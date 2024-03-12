@@ -7,4 +7,4 @@
 ISPlayerStatsManageInvUI = {}
 
 ---@return self
-function ISPlayerStatsManageInvUI:new() end
+function ISPlayerStatsManageInvUI:new(x, y, width, height, player) end

@@ -7,4 +7,4 @@
 ISSetKeybindDialog = {}
 
 ---@return self
-function ISSetKeybindDialog:new() end
+function ISSetKeybindDialog:new(keybindName) end

@@ -7,4 +7,4 @@
 ISWalkToTimedAction = {}
 
 ---@return self
-function ISWalkToTimedAction:new() end
+function ISWalkToTimedAction:new (character, location, additionalTest, additionalContext) end

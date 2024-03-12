@@ -7,4 +7,4 @@
 ISInventoryTransferAction = {}
 
 ---@return self
-function ISInventoryTransferAction:new() end
+function ISInventoryTransferAction:new (character, item, srcContainer, destContainer, time) end

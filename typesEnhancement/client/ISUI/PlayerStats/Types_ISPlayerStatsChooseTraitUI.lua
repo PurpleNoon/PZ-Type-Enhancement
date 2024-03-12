@@ -7,4 +7,4 @@
 ISPlayerStatsChooseTraitUI = {}
 
 ---@return self
-function ISPlayerStatsChooseTraitUI:new() end
+function ISPlayerStatsChooseTraitUI:new(x, y, width, height, target, onclick, player) end

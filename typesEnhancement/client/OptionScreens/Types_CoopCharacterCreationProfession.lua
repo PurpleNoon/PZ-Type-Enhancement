@@ -7,4 +7,4 @@
 CoopCharacterCreationProfession = {}
 
 ---@return self
-function CoopCharacterCreationProfession:new() end
+function CoopCharacterCreationProfession:new(x, y, width, height) end

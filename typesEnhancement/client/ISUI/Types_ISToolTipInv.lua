@@ -7,4 +7,4 @@
 ISToolTipInv = {}
 
 ---@return self
-function ISToolTipInv:new() end
+function ISToolTipInv:new(item) end

@@ -7,4 +7,4 @@
 ISVehicleRoadtripDebug = {}
 
 ---@return self
-function ISVehicleRoadtripDebug:new() end
+function ISVehicleRoadtripDebug:new(x, y, character) end

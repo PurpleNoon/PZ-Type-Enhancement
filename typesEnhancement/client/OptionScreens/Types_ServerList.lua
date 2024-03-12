@@ -7,4 +7,4 @@
 ServerList = {}
 
 ---@return self
-function ServerList:new() end
+function ServerList:new(x, y, width, height) end

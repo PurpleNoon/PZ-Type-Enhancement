@@ -7,4 +7,4 @@
 ISWoodenFloor = {}
 
 ---@return self
-function ISWoodenFloor:new() end
+function ISWoodenFloor:new(sprite, northSprite) end

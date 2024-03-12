@@ -7,4 +7,4 @@
 PopupColorEdit = {}
 
 ---@return self
-function PopupColorEdit:new() end
+function PopupColorEdit:new(x, y, width, height, title) end

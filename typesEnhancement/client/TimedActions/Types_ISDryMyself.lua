@@ -7,4 +7,4 @@
 ISDryMyself = {}
 
 ---@return self
-function ISDryMyself:new() end
+function ISDryMyself:new(character, item, time) end

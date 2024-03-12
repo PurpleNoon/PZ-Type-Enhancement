@@ -7,4 +7,4 @@
 ISToggleSafetyAction = {}
 
 ---@return self
-function ISToggleSafetyAction:new() end
+function ISToggleSafetyAction:new (character) end

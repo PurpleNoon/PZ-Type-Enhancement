@@ -7,4 +7,4 @@
 ISGarlicCataplasm = {}
 
 ---@return self
-function ISGarlicCataplasm:new() end
+function ISGarlicCataplasm:new(doctor, otherPlayer, item, bodyPart) end

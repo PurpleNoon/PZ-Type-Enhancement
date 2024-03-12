@@ -7,4 +7,4 @@
 LuaThreadWindow = {}
 
 ---@return self
-function LuaThreadWindow:new() end
+function LuaThreadWindow:new (x, y, width, height) end

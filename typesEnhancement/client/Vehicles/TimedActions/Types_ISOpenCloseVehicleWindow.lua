@@ -7,4 +7,4 @@
 ISOpenCloseVehicleWindow = {}
 
 ---@return self
-function ISOpenCloseVehicleWindow:new() end
+function ISOpenCloseVehicleWindow:new(character, part, open, time) end

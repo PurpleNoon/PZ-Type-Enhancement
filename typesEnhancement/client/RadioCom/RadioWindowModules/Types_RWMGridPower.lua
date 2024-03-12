@@ -7,4 +7,4 @@
 RWMGridPower = {}
 
 ---@return self
-function RWMGridPower:new() end
+function RWMGridPower:new (x, y, width, height) end

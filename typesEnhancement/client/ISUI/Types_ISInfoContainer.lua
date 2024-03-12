@@ -7,4 +7,4 @@
 ISInfoContainer = {}
 
 ---@return self
-function ISInfoContainer:new() end
+function ISInfoContainer:new (x, y, width, height) end

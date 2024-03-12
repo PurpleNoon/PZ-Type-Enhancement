@@ -7,4 +7,4 @@
 ISWhitelistTable = {}
 
 ---@return self
-function ISWhitelistTable:new() end
+function ISWhitelistTable:new (x, y, width, height, tableName) end

@@ -7,4 +7,4 @@
 ISGrabCorpseAction = {}
 
 ---@return self
-function ISGrabCorpseAction:new() end
+function ISGrabCorpseAction:new (character, corpse, time) end

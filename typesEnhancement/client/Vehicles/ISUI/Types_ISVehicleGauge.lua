@@ -7,4 +7,4 @@
 ISVehicleGauge = {}
 
 ---@return self
-function ISVehicleGauge:new() end
+function ISVehicleGauge:new(x, y, texture, needleX, needleY, minAngle, maxAngle) end

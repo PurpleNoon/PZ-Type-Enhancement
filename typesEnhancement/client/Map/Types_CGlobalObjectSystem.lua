@@ -7,4 +7,4 @@
 CGlobalObjectSystem = {}
 
 ---@return self
-function CGlobalObjectSystem:new() end
+function CGlobalObjectSystem:new(name) end

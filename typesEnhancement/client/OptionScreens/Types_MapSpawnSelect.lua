@@ -6,16 +6,10 @@
 ---@field Type 'MapSpawnSelect'
 MapSpawnSelect = {}
 
----@return self
-function MapSpawnSelect:new() end
-
 
 ---@class MapSpawnSelectListBox : ISScrollingListBox
 ---@field Type 'MapSpawnSelectListBox'
 MapSpawnSelectListBox = {}
-
----@return self
-function MapSpawnSelectListBox:new() end
 
 
 ---@class MapSpawnSelectInfoPanel : ISRichTextPanel
@@ -23,4 +17,4 @@ function MapSpawnSelectListBox:new() end
 MapSpawnSelectInfoPanel = {}
 
 ---@return self
-function MapSpawnSelectInfoPanel:new() end
+function MapSpawnSelect:new(x, y, width, height) end

@@ -7,4 +7,4 @@
 ISAddGasolineToVehicle = {}
 
 ---@return self
-function ISAddGasolineToVehicle:new() end
+function ISAddGasolineToVehicle:new(character, part, item, time) end

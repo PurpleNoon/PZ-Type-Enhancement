@@ -7,4 +7,4 @@
 ISChat = {}
 
 ---@return self
-function ISChat:new() end
+function ISChat:new (x, y, width, height) end

@@ -7,4 +7,4 @@
 ISAddTentAction = {}
 
 ---@return self
-function ISAddTentAction:new() end
+function ISAddTentAction:new (character, sq,item, sprite, time) end

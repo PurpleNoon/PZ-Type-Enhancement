@@ -7,4 +7,4 @@
 ISTransferWaterAction = {}
 
 ---@return self
-function ISTransferWaterAction:new() end
+function ISTransferWaterAction:new (character, itemFrom, itemTo, itemFromEndingDelta, itemToEndingDelta) end

@@ -7,4 +7,4 @@
 ISEquipHeavyItem = {}
 
 ---@return self
-function ISEquipHeavyItem:new() end
+function ISEquipHeavyItem:new(character, item, time) end

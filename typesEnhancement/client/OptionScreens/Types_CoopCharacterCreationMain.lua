@@ -7,4 +7,4 @@
 CoopCharacterCreationMain = {}
 
 ---@return self
-function CoopCharacterCreationMain:new() end
+function CoopCharacterCreationMain:new(x, y, width, height) end

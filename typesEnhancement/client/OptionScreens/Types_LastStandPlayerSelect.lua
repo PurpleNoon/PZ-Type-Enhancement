@@ -7,4 +7,4 @@
 LastStandPlayerSelect = {}
 
 ---@return self
-function LastStandPlayerSelect:new() end
+function LastStandPlayerSelect:new (x, y, width, height) end

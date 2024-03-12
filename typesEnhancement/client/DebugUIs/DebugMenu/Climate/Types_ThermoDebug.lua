@@ -7,4 +7,4 @@
 ThermoDebug = {}
 
 ---@return self
-function ThermoDebug:new() end
+function ThermoDebug:new (x, y, width, height, player) end

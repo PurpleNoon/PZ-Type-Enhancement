@@ -7,4 +7,4 @@
 ISDismantleAction = {}
 
 ---@return self
-function ISDismantleAction:new() end
+function ISDismantleAction:new(character, thumpable) end

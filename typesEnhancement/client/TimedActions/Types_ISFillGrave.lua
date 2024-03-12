@@ -7,4 +7,4 @@
 ISFillGrave = {}
 
 ---@return self
-function ISFillGrave:new() end
+function ISFillGrave:new(character, graves, time, shovel) end

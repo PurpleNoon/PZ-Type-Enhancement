@@ -7,4 +7,4 @@
 ISShovelAction = {}
 
 ---@return self
-function ISShovelAction:new() end
+function ISShovelAction:new (character, item, plant, time) end

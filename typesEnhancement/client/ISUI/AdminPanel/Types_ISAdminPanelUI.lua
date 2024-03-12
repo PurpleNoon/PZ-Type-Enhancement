@@ -7,4 +7,4 @@
 ISAdminPanelUI = {}
 
 ---@return self
-function ISAdminPanelUI:new() end
+function ISAdminPanelUI:new(x, y, width, height) end

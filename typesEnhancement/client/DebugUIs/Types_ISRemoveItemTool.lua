@@ -7,4 +7,4 @@
 ISRemoveItemTool = {}
 
 ---@return self
-function ISRemoveItemTool:new() end
+function ISRemoveItemTool:new(x, y, width, height, player) end

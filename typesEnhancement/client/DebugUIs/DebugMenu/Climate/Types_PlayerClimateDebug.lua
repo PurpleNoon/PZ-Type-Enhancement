@@ -7,4 +7,4 @@
 PlayerClimateDebug = {}
 
 ---@return self
-function PlayerClimateDebug:new() end
+function PlayerClimateDebug:new (x, y, width, height, player) end

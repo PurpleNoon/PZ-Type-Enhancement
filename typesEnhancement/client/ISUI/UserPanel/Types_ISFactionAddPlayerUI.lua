@@ -7,4 +7,4 @@
 ISFactionAddPlayerUI = {}
 
 ---@return self
-function ISFactionAddPlayerUI:new() end
+function ISFactionAddPlayerUI:new(x, y, width, height, faction, player) end

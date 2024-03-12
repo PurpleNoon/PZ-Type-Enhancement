@@ -7,4 +7,4 @@
 SGlobalObjectSystem = {}
 
 ---@return self
-function SGlobalObjectSystem:new() end
+function SGlobalObjectSystem:new(name) end

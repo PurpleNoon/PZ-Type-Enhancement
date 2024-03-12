@@ -7,4 +7,4 @@
 ISDebugBlood = {}
 
 ---@return self
-function ISDebugBlood:new() end
+function ISDebugBlood:new(x, y, width, height, doStencil) end

@@ -6,13 +6,13 @@
 ---@field Type 'BrushToolTilePickerList'
 BrushToolTilePickerList = {}
 
----@return self
-function BrushToolTilePickerList:new() end
-
 
 ---@class BrushToolChooseTileUI : ISCollapsableWindow
 ---@field Type 'BrushToolChooseTileUI'
 BrushToolChooseTileUI = {}
 
 ---@return self
-function BrushToolChooseTileUI:new() end
+function BrushToolTilePickerList:new(x, y, w, h, character) end
+
+---@return self
+function BrushToolChooseTileUI:new(x, y, width, height, character) end

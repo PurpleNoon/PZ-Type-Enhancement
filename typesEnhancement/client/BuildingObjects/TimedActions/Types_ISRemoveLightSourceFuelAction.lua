@@ -7,4 +7,4 @@
 ISRemoveLightSourceFuelAction = {}
 
 ---@return self
-function ISRemoveLightSourceFuelAction:new() end
+function ISRemoveLightSourceFuelAction:new(character, lightSource, time) end

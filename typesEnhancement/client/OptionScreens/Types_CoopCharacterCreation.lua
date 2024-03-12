@@ -7,4 +7,4 @@
 CoopCharacterCreation = {}
 
 ---@return self
-function CoopCharacterCreation:new() end
+function CoopCharacterCreation:new(joypadIndex, joypadData, playerIndex) end

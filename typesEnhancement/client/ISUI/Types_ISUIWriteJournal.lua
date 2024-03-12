@@ -7,4 +7,4 @@
 ISUIWriteJournal = {}
 
 ---@return self
-function ISUIWriteJournal:new() end
+function ISUIWriteJournal:new(x, y, width, height, target, onclick, character, notebook, defaultEntryText, title, lineNumber, editable, numberOfPages) end

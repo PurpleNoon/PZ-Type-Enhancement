@@ -7,4 +7,4 @@
 ISLabel = {}
 
 ---@return self
-function ISLabel:new() end
+function ISLabel:new (x, y, height, name, r, g, b, a, font, bLeft) end

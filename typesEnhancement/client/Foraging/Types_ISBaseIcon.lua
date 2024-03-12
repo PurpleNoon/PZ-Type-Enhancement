@@ -7,4 +7,4 @@
 ISBaseIcon = {}
 
 ---@return self
-function ISBaseIcon:new() end
+function ISBaseIcon:new(_manager, _icon) end

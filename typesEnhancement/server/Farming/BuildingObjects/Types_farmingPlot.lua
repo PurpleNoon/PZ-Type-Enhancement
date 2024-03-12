@@ -7,4 +7,4 @@
 farmingPlot = {}
 
 ---@return self
-function farmingPlot:new() end
+function farmingPlot:new(handItem, character) end

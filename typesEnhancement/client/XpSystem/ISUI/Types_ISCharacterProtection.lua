@@ -7,4 +7,4 @@
 ISCharacterProtection = {}
 
 ---@return self
-function ISCharacterProtection:new() end
+function ISCharacterProtection:new(x, y, width, height, playerNum) end

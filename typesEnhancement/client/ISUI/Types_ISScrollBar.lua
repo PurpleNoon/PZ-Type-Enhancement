@@ -7,4 +7,4 @@
 ISScrollBar = {}
 
 ---@return self
-function ISScrollBar:new() end
+function ISScrollBar:new (parent, vertical) end

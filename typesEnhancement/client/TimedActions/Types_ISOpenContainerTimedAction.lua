@@ -7,4 +7,4 @@
 ISOpenContainerTimedAction = {}
 
 ---@return self
-function ISOpenContainerTimedAction:new() end
+function ISOpenContainerTimedAction:new (character, container, time, x, y) end

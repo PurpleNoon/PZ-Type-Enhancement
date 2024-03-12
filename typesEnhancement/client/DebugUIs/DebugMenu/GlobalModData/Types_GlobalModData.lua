@@ -7,4 +7,4 @@
 GlobalModDataDebug = {}
 
 ---@return self
-function GlobalModDataDebug:new() end
+function GlobalModDataDebug:new(x, y, width, height, title) end

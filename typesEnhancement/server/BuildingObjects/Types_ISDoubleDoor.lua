@@ -7,4 +7,4 @@
 ISDoubleDoor = {}
 
 ---@return self
-function ISDoubleDoor:new() end
+function ISDoubleDoor:new(sprite, spriteIndex) end

@@ -7,4 +7,4 @@
 ISTakeWaterAction = {}
 
 ---@return self
-function ISTakeWaterAction:new() end
+function ISTakeWaterAction:new (character, item, waterUnit, waterObject, time, oldItem) end

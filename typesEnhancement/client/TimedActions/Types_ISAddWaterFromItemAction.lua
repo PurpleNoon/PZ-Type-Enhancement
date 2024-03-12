@@ -7,4 +7,4 @@
 ISAddWaterFromItemAction = {}
 
 ---@return self
-function ISAddWaterFromItemAction:new() end
+function ISAddWaterFromItemAction:new(character, itemFrom, objectTo) end

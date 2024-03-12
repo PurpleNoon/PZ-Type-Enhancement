@@ -6,16 +6,10 @@
 ---@field Type 'ISEquippedItem'
 ISEquippedItem = {}
 
----@return self
-function ISEquippedItem:new() end
-
 
 ---@class ISMoveablesIconPopup : ISPanel
 ---@field Type 'ISMoveablesIconPopup'
 ISMoveablesIconPopup = {}
-
----@return self
-function ISMoveablesIconPopup:new() end
 
 
 ---@class ISMapPopup : ISPanel
@@ -23,4 +17,10 @@ function ISMoveablesIconPopup:new() end
 ISMapPopup = {}
 
 ---@return self
-function ISMapPopup:new() end
+function ISEquippedItem:new (x, y, width, height, chr) end
+
+---@return self
+function ISMoveablesIconPopup:new (x, y, width, height) end
+
+---@return self
+function ISMapPopup:new(x, y, width, height) end

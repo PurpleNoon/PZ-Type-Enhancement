@@ -7,4 +7,4 @@
 ISToggleLightAction = {}
 
 ---@return self
-function ISToggleLightAction:new() end
+function ISToggleLightAction:new(character, object) end

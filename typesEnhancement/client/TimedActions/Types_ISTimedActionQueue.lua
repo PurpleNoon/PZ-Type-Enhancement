@@ -7,4 +7,4 @@
 ISTimedActionQueue = {}
 
 ---@return self
-function ISTimedActionQueue:new() end
+function ISTimedActionQueue:new (character) end

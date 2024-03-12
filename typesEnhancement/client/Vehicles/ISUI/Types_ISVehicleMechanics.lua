@@ -7,4 +7,4 @@
 ISVehicleMechanics = {}
 
 ---@return self
-function ISVehicleMechanics:new() end
+function ISVehicleMechanics:new(x, y, character, vehicle) end

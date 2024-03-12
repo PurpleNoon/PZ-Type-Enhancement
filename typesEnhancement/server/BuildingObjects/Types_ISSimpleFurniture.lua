@@ -7,4 +7,4 @@
 ISSimpleFurniture = {}
 
 ---@return self
-function ISSimpleFurniture:new() end
+function ISSimpleFurniture:new(name, sprite, northSprite) end

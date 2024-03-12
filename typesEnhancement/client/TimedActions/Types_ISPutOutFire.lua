@@ -7,4 +7,4 @@
 ISPutOutFire = {}
 
 ---@return self
-function ISPutOutFire:new() end
+function ISPutOutFire:new(character, squares, item, usesPerSquare, time) end

@@ -7,4 +7,4 @@
 ISChopTreeCursor = {}
 
 ---@return self
-function ISChopTreeCursor:new() end
+function ISChopTreeCursor:new(sprite, northSprite, character) end

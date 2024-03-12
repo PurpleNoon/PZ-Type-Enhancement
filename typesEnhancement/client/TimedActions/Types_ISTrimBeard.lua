@@ -7,4 +7,4 @@
 ISTrimBeard = {}
 
 ---@return self
-function ISTrimBeard:new() end
+function ISTrimBeard:new(character, beardStyle, item, time) end

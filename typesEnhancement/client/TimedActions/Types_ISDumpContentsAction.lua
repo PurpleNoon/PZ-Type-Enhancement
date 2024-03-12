@@ -7,4 +7,4 @@
 ISDumpContentsAction = {}
 
 ---@return self
-function ISDumpContentsAction:new() end
+function ISDumpContentsAction:new (character, item, time) end

@@ -7,4 +7,4 @@
 ISItemDropBox = {}
 
 ---@return self
-function ISItemDropBox:new() end
+function ISItemDropBox:new (x, y, width, height, storeItem, target, onItemDropped, onItemRemove, onVerifyItem, onDragSelf) end

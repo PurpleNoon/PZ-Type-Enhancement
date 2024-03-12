@@ -7,4 +7,4 @@
 ISCharacterInfoWindow = {}
 
 ---@return self
-function ISCharacterInfoWindow:new() end
+function ISCharacterInfoWindow:new (x, y, width, height, playerNum) end

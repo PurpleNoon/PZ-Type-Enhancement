@@ -7,4 +7,4 @@
 ISCloseVehicleDoor = {}
 
 ---@return self
-function ISCloseVehicleDoor:new() end
+function ISCloseVehicleDoor:new(character, vehicle, partOrSeat) end

@@ -7,4 +7,4 @@
 ISUIEmoteConfig = {}
 
 ---@return self
-function ISUIEmoteConfig:new() end
+function ISUIEmoteConfig:new(x, y, character) end

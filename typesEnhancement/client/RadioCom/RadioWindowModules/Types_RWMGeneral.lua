@@ -7,4 +7,4 @@
 RWMGeneral = {}
 
 ---@return self
-function RWMGeneral:new() end
+function RWMGeneral:new (x, y, width, height) end

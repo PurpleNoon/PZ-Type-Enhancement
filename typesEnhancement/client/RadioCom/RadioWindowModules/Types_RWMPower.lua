@@ -7,4 +7,4 @@
 RWMPower = {}
 
 ---@return self
-function RWMPower:new() end
+function RWMPower:new (x, y, width, height) end

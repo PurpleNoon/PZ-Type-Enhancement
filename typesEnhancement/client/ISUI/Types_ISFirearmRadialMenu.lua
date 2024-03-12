@@ -6,56 +6,35 @@
 ---@field Type 'ISFirearmRadialMenu'
 ISFirearmRadialMenu = {}
 
----@return self
-function ISFirearmRadialMenu:new() end
-
 
 ---@class BaseCommand : ISBaseObject
 ---@field Type 'BaseCommand'
 BaseCommand = {}
-
----@return self
-function BaseCommand:new() end
 
 
 ---@class CInsertMagazine : BaseCommand
 ---@field Type 'CInsertMagazine'
 CInsertMagazine = {}
 
----@return self
-function CInsertMagazine:new() end
-
 
 ---@class CEjectMagazine : BaseCommand
 ---@field Type 'CEjectMagazine'
 CEjectMagazine = {}
-
----@return self
-function CEjectMagazine:new() end
 
 
 ---@class CLoadBulletsInMagazine : BaseCommand
 ---@field Type 'CLoadBulletsInMagazine'
 CLoadBulletsInMagazine = {}
 
----@return self
-function CLoadBulletsInMagazine:new() end
-
 
 ---@class CLoadRounds : BaseCommand
 ---@field Type 'CLoadRounds'
 CLoadRounds = {}
 
----@return self
-function CLoadRounds:new() end
-
 
 ---@class CUnloadRounds : BaseCommand
 ---@field Type 'CUnloadRounds'
 CUnloadRounds = {}
-
----@return self
-function CUnloadRounds:new() end
 
 
 ---@class CRack : BaseCommand
@@ -63,4 +42,25 @@ function CUnloadRounds:new() end
 CRack = {}
 
 ---@return self
-function CRack:new() end
+function BaseCommand:new(frm) end
+
+---@return self
+function CInsertMagazine:new(frm) end
+
+---@return self
+function CEjectMagazine:new(frm) end
+
+---@return self
+function CLoadBulletsInMagazine:new(frm) end
+
+---@return self
+function CLoadRounds:new(frm) end
+
+---@return self
+function CUnloadRounds:new(frm) end
+
+---@return self
+function CRack:new(frm) end
+
+---@return self
+function ISFirearmRadialMenu:new(character) end

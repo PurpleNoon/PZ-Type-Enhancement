@@ -7,4 +7,4 @@
 ISConsolidateDrainable = {}
 
 ---@return self
-function ISConsolidateDrainable:new() end
+function ISConsolidateDrainable:new(character, drainable, intoItem, time, otherItems) end

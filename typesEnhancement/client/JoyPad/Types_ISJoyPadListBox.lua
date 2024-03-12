@@ -7,4 +7,4 @@
 ISJoypadListBox = {}
 
 ---@return self
-function ISJoypadListBox:new() end
+function ISJoypadListBox:new(x, y, w, h, playerNum, joypadData) end

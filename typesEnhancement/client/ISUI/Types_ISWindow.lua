@@ -7,4 +7,4 @@
 ISWindow = {}
 
 ---@return self
-function ISWindow:new() end
+function ISWindow:new (title, x, y, width, height) end

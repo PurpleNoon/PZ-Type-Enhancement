@@ -7,4 +7,4 @@
 ISInventoryPage = {}
 
 ---@return self
-function ISInventoryPage:new() end
+function ISInventoryPage:new (x, y, width, height, inventory, onCharacter, zoom) end

@@ -7,4 +7,4 @@
 StatisticChart = {}
 
 ---@return self
-function StatisticChart:new() end
+function StatisticChart:new (x, y, width, height, player) end

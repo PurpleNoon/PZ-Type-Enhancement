@@ -7,4 +7,4 @@
 ISRestAction = {}
 
 ---@return self
-function ISRestAction:new() end
+function ISRestAction:new(character) end

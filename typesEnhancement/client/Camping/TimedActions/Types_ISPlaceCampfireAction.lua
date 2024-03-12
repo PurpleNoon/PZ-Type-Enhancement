@@ -7,4 +7,4 @@
 ISPlaceCampfireAction = {}
 
 ---@return self
-function ISPlaceCampfireAction:new() end
+function ISPlaceCampfireAction:new (character, sq, item, time) end

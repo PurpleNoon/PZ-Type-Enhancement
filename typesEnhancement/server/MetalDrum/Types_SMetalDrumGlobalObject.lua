@@ -7,4 +7,4 @@
 SMetalDrumGlobalObject = {}
 
 ---@return self
-function SMetalDrumGlobalObject:new() end
+function SMetalDrumGlobalObject:new(luaSystem, globalObject) end

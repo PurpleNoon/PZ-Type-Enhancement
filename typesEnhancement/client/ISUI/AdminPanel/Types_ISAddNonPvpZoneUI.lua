@@ -7,4 +7,4 @@
 ISAddNonPvpZoneUI = {}
 
 ---@return self
-function ISAddNonPvpZoneUI:new() end
+function ISAddNonPvpZoneUI:new(x, y, width, height, player) end

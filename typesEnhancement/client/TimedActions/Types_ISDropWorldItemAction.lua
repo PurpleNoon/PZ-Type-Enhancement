@@ -7,4 +7,4 @@
 ISDropWorldItemAction = {}
 
 ---@return self
-function ISDropWorldItemAction:new() end
+function ISDropWorldItemAction:new(character, item, sq, xoffset, yoffset, zoffset, rotation, isMultiple) end

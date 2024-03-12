@@ -7,4 +7,4 @@
 ISRepairEngine = {}
 
 ---@return self
-function ISRepairEngine:new() end
+function ISRepairEngine:new(character, part, item, time) end

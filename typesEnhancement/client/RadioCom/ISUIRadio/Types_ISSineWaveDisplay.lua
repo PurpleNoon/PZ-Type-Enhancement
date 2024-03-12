@@ -7,4 +7,4 @@
 ISSineWaveDisplay = {}
 
 ---@return self
-function ISSineWaveDisplay:new() end
+function ISSineWaveDisplay:new (x, y, width, height) end

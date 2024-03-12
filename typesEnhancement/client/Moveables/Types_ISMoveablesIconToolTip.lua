@@ -7,4 +7,4 @@
 ISMoveablesIconToolTip = {}
 
 ---@return self
-function ISMoveablesIconToolTip:new() end
+function ISMoveablesIconToolTip:new (x, y, width, height, marginOffset) end

@@ -7,4 +7,4 @@
 ISUnbarricadeAction = {}
 
 ---@return self
-function ISUnbarricadeAction:new() end
+function ISUnbarricadeAction:new(character, item, time) end

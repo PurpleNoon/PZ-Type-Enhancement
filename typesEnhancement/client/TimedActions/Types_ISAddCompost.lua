@@ -7,4 +7,4 @@
 ISAddCompost = {}
 
 ---@return self
-function ISAddCompost:new() end
+function ISAddCompost:new(character, compost, item) end

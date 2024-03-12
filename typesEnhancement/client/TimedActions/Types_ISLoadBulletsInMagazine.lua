@@ -7,4 +7,4 @@
 ISLoadBulletsInMagazine = {}
 
 ---@return self
-function ISLoadBulletsInMagazine:new() end
+function ISLoadBulletsInMagazine:new(character, magazine, ammoCount) end

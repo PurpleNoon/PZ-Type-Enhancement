@@ -7,4 +7,4 @@
 RWMElement = {}
 
 ---@return self
-function RWMElement:new() end
+function RWMElement:new (x, y, width, height, subpanel, title, radioParent) end

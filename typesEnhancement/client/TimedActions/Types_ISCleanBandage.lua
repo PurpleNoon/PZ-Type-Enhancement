@@ -7,4 +7,4 @@
 ISCleanBandage = {}
 
 ---@return self
-function ISCleanBandage:new() end
+function ISCleanBandage:new(character, item, waterObject, recipe) end

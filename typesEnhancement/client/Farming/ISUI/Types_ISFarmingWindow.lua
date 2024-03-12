@@ -7,4 +7,4 @@
 ISFarmingWindow = {}
 
 ---@return self
-function ISFarmingWindow:new() end
+function ISFarmingWindow:new (x, y, width, height, character, plant) end

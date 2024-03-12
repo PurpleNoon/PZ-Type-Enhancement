@@ -6,16 +6,10 @@
 ---@field Type 'ISOnScreenKeyboard'
 ISOnScreenKeyboard = {}
 
----@return self
-function ISOnScreenKeyboard:new() end
-
 
 ---@class OnScreenKeyboardEntry : ISPanelJoypad
 ---@field Type 'OnScreenKeyboardEntry'
 OnScreenKeyboardEntry = {}
-
----@return self
-function OnScreenKeyboardEntry:new() end
 
 
 ---@class OnScreenKeyboardPanel : ISPanelJoypad
@@ -23,4 +17,10 @@ function OnScreenKeyboardEntry:new() end
 OnScreenKeyboardPanel = {}
 
 ---@return self
-function OnScreenKeyboardPanel:new() end
+function OnScreenKeyboardEntry:new(x, y, width, height) end
+
+---@return self
+function OnScreenKeyboardPanel:new(x, y, parent) end
+
+---@return self
+function ISOnScreenKeyboard:new(x, y, width, height) end

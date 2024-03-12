@@ -7,4 +7,4 @@
 ISBBQLightFromKindle = {}
 
 ---@return self
-function ISBBQLightFromKindle:new() end
+function ISBBQLightFromKindle:new(character, plank, stickOrBranch, bbq, time) end

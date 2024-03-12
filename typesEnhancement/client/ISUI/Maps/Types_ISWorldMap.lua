@@ -6,16 +6,10 @@
 ---@field Type 'WorldMapOptions'
 WorldMapOptions = {}
 
----@return self
-function WorldMapOptions:new() end
-
 
 ---@class ISWorldMapButtonPanel : ISPanelJoypad
 ---@field Type 'ISWorldMapButtonPanel'
 ISWorldMapButtonPanel = {}
-
----@return self
-function ISWorldMapButtonPanel:new() end
 
 
 ---@class ISWorldMap : ISPanelJoypad
@@ -23,4 +17,10 @@ function ISWorldMapButtonPanel:new() end
 ISWorldMap = {}
 
 ---@return self
-function ISWorldMap:new() end
+function WorldMapOptions:new(x, y, width, height, map) end
+
+---@return self
+function ISWorldMapButtonPanel:new(x, y, width, height) end
+
+---@return self
+function ISWorldMap:new(x, y, width, height) end

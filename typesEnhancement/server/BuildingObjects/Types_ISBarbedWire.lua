@@ -7,4 +7,4 @@
 ISBarbedWire = {}
 
 ---@return self
-function ISBarbedWire:new() end
+function ISBarbedWire:new(sprite, northSprite) end

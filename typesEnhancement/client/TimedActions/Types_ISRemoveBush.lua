@@ -7,4 +7,4 @@
 ISRemoveBush = {}
 
 ---@return self
-function ISRemoveBush:new() end
+function ISRemoveBush:new(character, square, wallVine) end

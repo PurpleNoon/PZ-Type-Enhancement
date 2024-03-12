@@ -7,4 +7,4 @@
 DeviceInspector = {}
 
 ---@return self
-function DeviceInspector:new() end
+function DeviceInspector:new (x, y, width, height, player) end

@@ -7,4 +7,4 @@
 ISTakePillAction = {}
 
 ---@return self
-function ISTakePillAction:new() end
+function ISTakePillAction:new (character, item, time) end

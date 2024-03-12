@@ -7,4 +7,4 @@
 PuddlesPeriodDebug = {}
 
 ---@return self
-function PuddlesPeriodDebug:new() end
+function PuddlesPeriodDebug:new (x, y, width, height, player) end

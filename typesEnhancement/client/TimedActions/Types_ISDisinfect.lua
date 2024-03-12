@@ -7,4 +7,4 @@
 ISDisinfect = {}
 
 ---@return self
-function ISDisinfect:new() end
+function ISDisinfect:new(doctor, otherPlayer, alcohol, bodyPart) end
