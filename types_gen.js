@@ -41,22 +41,41 @@ function recursiveReadFile(filePath, cb) {
 
 function genClassDef(classTypeList) {
     if (!classTypeList.length) {
-        return
+        return ''
     }
     const typeDefHeader = `
 ---@meta
 `
-    const typeDefParts = classTypeList.map(
-        ([childClass, parentClass]) => `
+//     const typeDefParts = classTypeList.map(
+//         ([childClass, parentClass]) => `
+
+// ---@class ${childClass}${parentClass ? ` : ${parentClass}` : ``}
+// ---@field Type '${childClass}'
+// ${childClass} = {}
+
+// ---@return self
+// function ${childClass}:new() end
+// `).join('')
+const typeDefParts = classTypeList.map(
+    ([childClass, parentClass]) => `
 
 ---@class ${childClass}${parentClass ? ` : ${parentClass}` : ``}
 ---@field Type '${childClass}'
 ${childClass} = {}
-
----@return self
-function ${childClass}:new() end
 `).join('')
     return typeDefHeader + typeDefParts
+}
+
+function genNewDef(classDefList) {
+    if (!classDefList.length) {
+        return ''
+    }
+    const typeDefParts = classDefList.map(
+        (def) => `
+---@return self
+${def} end
+`).join('')
+    return typeDefParts
 }
 
 function convertPath(filename) {
@@ -120,12 +139,17 @@ function ISBaseObject:new() end
         return
     }
 
-    const funcNewExp = /(\w+)\s*\=\s*(\w+)\:derive\s*\(/g
-    const classTypeList = [...data.matchAll(funcNewExp)].map(([_, childClass, parentClass]) => [childClass, parentClass])
+    const funcDeriveExp = /(\w+)\s*\=\s*(\w+)\:derive\s*\(/g
+    const classTypeList = [...data.matchAll(funcDeriveExp)].map(([_, childClass, parentClass]) => [childClass, parentClass])
     if (!classTypeList.length) {
         return
     }
-    const content = genClassDef(classTypeList)
+    
+    const classTypeContent = genClassDef(classTypeList)
+    const funcNewExp = /function\s+\w+\s*:\s*new\s*\([^\)]*\)/g
+    const newDefList = [...data.matchAll(funcNewExp)].map(([def]) => def)
+    const newDefContent = genNewDef(newDefList)
+    const content = classTypeContent + newDefContent
     writeTypes(parsedPath.relativeDir, parsedPath.base, content)
 }
 
